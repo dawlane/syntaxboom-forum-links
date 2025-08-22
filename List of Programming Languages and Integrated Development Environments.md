@@ -278,7 +278,7 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 </br></br>
 
 [**Sublime Text**](https://www.sublimetext.com/) (*Window, macOS & Linux*)  
-[***SUblime Text***](https://en.wikipedia.org/wiki/Sublime_Text) is a minimal code and text editor.
+[***Sublime Text***](https://en.wikipedia.org/wiki/Sublime_Text) is a minimal code and text editor.
 *Requires third-party tools and software development kits.*
 </br></br>
 
