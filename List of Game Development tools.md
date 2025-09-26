@@ -1,6 +1,6 @@
 # List of Game Development tools
 
-This is is going to be the start of a list of useful links to various programming languages and Integrated Development Environments. If anyone adds some gems, then they will be added to this post, so people don't have to go through every post.
+This is going to be the start of a list of useful links to various programming languages and Integrated Development Environments. If anyone adds some gems, then they will be added to this post, so people don't have to go through every post.
 
 **NOTE:** Many of these sites linked here, have not been fully checked or validated for what contents they offer, and possibly in the future they may also be broken. Anyone using the links should remain vigilant to protect themselves from malicious software and sites through the use of internet security software and good judgement by not falling prey to sites that require the specific entry of personal information. The accuracy of the descriptions may also not be correct, and should be in many cases considered a work-in-progress.
 If they don't appear to be what is advertised, or look suspicious.
@@ -25,7 +25,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 [**GNU Image Manipulation Program**](https://www.gimp.org/) (*Window, Linux & macOS*)  
 [***GIMP***](https://en.wikipedia.org/wiki/GIMP) is a free and open source cross platform raster image editor. It is commonly used for photo retouching, image editing, free-hand drawing, and converting between different image file formats.
 
-[**Inkscape**](https://inkscape.org/) (*Window, Linux & macOS)  
+[**Inkscape**](https://inkscape.org/) (*Window, Linux & macOS*)  
 [***Inkscape***](https://en.wikipedia.org/wiki/Inkscape) is a free and open source cross platform vector image creation application. It's commonly use to create vector art such as logos and application icons, but can also be used to create fonts.
 
 [**Photofiltre**](https://www.photofiltre-studio.com/) (*Windows*)  
@@ -39,11 +39,14 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 [**3DS Max**](https://www.autodesk.com/uk/products/3ds-max/overview) (*Windows*)  
 [***3DS Max***](https://en.wikipedia.org/wiki/Autodesk_3ds_Max) is a professional 3D modelling software tool use for making 3D animation, games and images.
 
-[**AC3D**](https://www.inivis.com/) (*Windows, Linux & macOS)  
+[**AC3D**](https://www.inivis.com/) (*Windows, Linux & macOS*)  
 [***AC3D***](https://en.wikipedia.org/wiki/AC3D) is a cross-platform application for 3D modelling and UV unwrapping. It does not support animation.
 
+[**Bforartists**](https://www.bforartists.de/) (*Window, Linux & macOS*)  
+**Bforartists** is a fork of [***Blender 3D***](https://en.wikipedia.org/wiki/Blender_(software)), a free and open source 3D modelling, animation, sculpting and UV unwrapping application. The main difference between the two is that **Bforartists** has been designed to make the GUI interface more visually friendly, rather than usings **Blender 3D**'s command key shortcut approach for tools.
+
 [**Blender 3D**](https://www.blender.org/) (*Window, Linux & macOS*)  
-[***Blender 3D***](https://en.wikipedia.org/wiki/Blender_(software)) is a 3D modelling, animation, sculpting and UV unwrapping application.
+[***Blender 3D***](https://en.wikipedia.org/wiki/Blender_(software)) is a free and open source 3D modelling, animation, sculpting and UV unwrapping application. Unlike **Bforartists**, **Blender 3D**'s GUI interface relies heavily on command key shortcuts for tools.
 
 [**Cinema4D**](https://www.maxon.net/en/product-detail/cinema-4d) (*Windows & macOS*)  
 [***Cinema4D***](https://en.wikipedia.org/wiki/Cinema_4D) is a 3D modelling and animation tool for that has been used in a number of industries from games, T.V. & film, to architecture.
@@ -57,7 +60,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 ## Music Creation Software
 
 [**Fl Studio**](https://www.image-line.com/) (*Windows & macOS*)  
-[***Fl Studio**](https://en.wikipedia.org/wiki/FL_Studio) is a Digital Audio Workstation (DAW) used for creating Music. FL Studio can be used as either a Virtual Studio Technology (VST) or Audio Unit (AU) instrument in other audio workstation programs, and as a ReWire client.
+[***Fl Studio***](https://en.wikipedia.org/wiki/FL_Studio) is a Digital Audio Workstation (DAW) used for creating Music. FL Studio can be used as either a Virtual Studio Technology (VST) or Audio Unit (AU) instrument in other audio workstation programs, and as a ReWire client.
 
 [**LMMS**](https://lmms.io/) (*Windows, macOS & Linux*)  
 [***LMMS***](https://en.wikipedia.org/wiki/LMMS) is a free and open source Digital Audio Workstation (DAW) application. The Windows version can support the use of VST plug-ins on Win32, Win64, or Wine32 on Linux.
@@ -81,16 +84,22 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 [**Free Texture Packer**](https://free-tex-packer.com/) (*Windows, macOS, Linux & Web Browser*)  
 **Free Texture Packer** is a free cross-platform tool use to pack multiple images into one large image commonly known as a sprite sheet for use in video games. You can either download that binary application, or use the [**online version**](https://free-tex-packer.com/app/).
 
-[**Texture Packer**](https://www.codeandweb.com/texturepacker) (*Windows, macOS & Linux)  
+[**Texture Packer**](https://www.codeandweb.com/texturepacker) (*Windows, macOS & Linux*)  
 **Texture Packer** is a cross-platform tool use to pack multiple images into one large image commonly known as a sprite sheet for use in video games.
 
 ## Game Level Editors
 
-[**Tiled**](https://www.mapeditor.org/) (*Windows, macOS & Linux*)  
-**Tiled** is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. It can be used to create maps of any size, with no restrictions on tile size, or the number of layers or tiles that can be used.
+[**GtkRadiant**](https://icculus.org/gtkradiant/) (*Windows, Linux & macOS*)  
+[***GtkRadiant***](https://en.wikipedia.org/wiki/Quake_modding#Quake_III) is a 3D level editing tool that was primarily use for editing game level for [*id Software's Tech Engines*](https://en.wikipedia.org/wiki/Id_Tech), most notably Quake 3.
 
 [**RGP Map Editor 2**](https://deepnight.net/tools/rpg-map/) (*Windows & Most Web Browser*)  
 **RGP Map Editor 2** is a free to map editor for making tabletop style roll playing games. It exports to [**Roll20**](https://roll20.net/) and [**Fantasy Grounds**](https://www.fantasygrounds.com/).
+
+[**Tiled**](https://www.mapeditor.org/) (*Windows, macOS & Linux*)  
+**Tiled** is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. It can be used to create maps of any size, with no restrictions on tile size, or the number of layers or tiles that can be used.
+
+[**QuArK**](https://quark.sourceforge.io/) (*Windows*)   
+[***QuArK***](https://quark.sourceforge.io/) stands for Quake Army Knife. And is a 3D level editing tools that was primarily used for the editing of Quake levels. It currently supports 5 game engines, and 
 
 ## Texture Generators
 
@@ -120,7 +129,10 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Codehead's Bitmap Font Generator** is an application used to convert a a font into a rasterised bitmap, ready for editing in a graphical image editor.
 
 [**FontForge**](https://fontforge.org/en-US/) (*Windows, macOS & Linux*)  
-**FontForge** is a free open source application for creating and editing True Type Fonts.
+[***FontForge***](https://en.wikipedia.org/wiki/FontForge) is a free open source application for creating and editing True Type Fonts.
+
+[**FontLab**](https://www.fontlab.com/) (*Window & macOS*)  
+[***FontLab***](https://en.wikipedia.org/wiki/FontLab) is a proprietary font editor application for creating and editing OpenType fonts, variable fonts, color fonts and web fonts.
 
 [**Glyphr Studio**](https://www.glyphrstudio.com/) (*Web Browser*)  
 **Glyphr Studio** is a web-based font application for the creation and editing of Open Type, True Type, WOFF and SVG fonts.
