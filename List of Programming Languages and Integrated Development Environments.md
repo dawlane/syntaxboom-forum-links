@@ -61,7 +61,7 @@ For a list of other BASIC langauges not listed here. Please see checkout **JohnB
 </br></br>
 
 [**SpiderBasic**](https://www.spiderbasic.com/) (*Windows, macOS & Linux*)  
-**SpiderBasic** is a a version of the PureBasic dialect for writing web based application. This language is also created by Fantaisie Software. It generates optimized javascript that requires a modern HTML 5 compliant web browser to run.
+**SpiderBasic** is a version of the PureBasic dialect for writing web based application. This language is also created by Fantaisie Software. It generates optimized javascript that requires a modern HTML 5 compliant web browser to run.
 </br></br>
 
 [**Wonkey**](https://github.com/wonkey-coders/wonkey) (*Window, macOS & Linux*)  
@@ -139,7 +139,7 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 </br></br>
 
 [**Ruby**](https://www.ruby-lang.org/en/) (*Cross Platform*)  
-[***Ruby***](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+[***Ruby***](https://en.wikipedia.org/wiki/Ruby_(programming_language)) is a high level general purpose, dynamically typed interpreted language.
 </br></br>
 
 [**Vala**](https://vala.dev/) (*Cross Platform*)  
