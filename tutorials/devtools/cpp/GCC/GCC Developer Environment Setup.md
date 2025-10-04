@@ -93,7 +93,7 @@ On macOS. You have to install [*XCode*](https://developer.apple.com/xcode/) to t
 
 ## Step Two: Build Tool Environment
 
-If not using an Integrated Development Environment that supports it's own build environment, then you will need to install a build system tool; that is unless you like to do every build step by hand, which many would say is a good learning experience as it gets you familiar with the actual build process. But if you think that would be too tedious, then there are a fair few build systems that can be used. There's the ever venerable [***Gnu make tool***](https://www.gnu.org/software/make/), on MS Windows you would use MinGW32-make, to the more recent upstart makefile generator [***CMake***](https://cmake.org/). There is also nothing stopping you from creating your own custom build script with regular shell scripts, but you lose a lot of functionality such as incremental builds and speed.
+If not using an Integrated Development Environment that supports it's own build environment, then you will need to install a build system tool; that is unless you like to do every build step by hand, which many would say is a good learning experience as it gets you familiar with the actual build process. But if you think that would be too tedious, or complicated, then there are a fair few build systems that can be used. There's the ever venerable [***Gnu make tool***](https://www.gnu.org/software/make/), on MS Windows you would use MinGW32-make, to the more recent upstart makefile generator [***CMake***](https://cmake.org/). There is also nothing stopping you from creating your own custom build script with regular shell scripts, but you lose a lot of functionality such as incremental builds, parallel building and build speed.
 
 Here is a list of current build systems that either are true make tools, or makefile generators.
 
@@ -112,7 +112,7 @@ Here is a list of current build systems that either are true make tools, or make
 * [XMake](https://xmake.io/)
 * [AutoMake/AutoTools](https://www.gnu.org/software/automake/manual/html_node/index.html#SEC_Contents)
 
-All of these build systems have a bit of a learning curve, but once learned can make building applications a lot easier. The current trend is to use CMake to generate a files that can be used with a make build system, or number of integrated development environments.
+All of these build systems have a bit of a learning curve, but once learned can make building applications a lot easier. The current trend is to use CMake to generate files that can be used with a make build system, or number of integrated development environments.
 
 </br>
 
@@ -155,7 +155,7 @@ Many versatile text editors may require that you have to learn how to control fe
 
 ### Integrated Development Environments
 
-An Integrated Development Environment, also known as an **IDE**. Is an application that is specifically written for the writing, compiling, debugging and profiling of an application or other programming task. Some of these IDE's are dedicated to just the one programming language, or can support multiple programming languages. They have their own build system, but some can be configured to use another if required. These type of code editors have a lot more features and settings than the other types previously mentioned, due to supporting file and compiler project management and configuration.
+An Integrated Development Environment, also known as an **IDE**. Is an application that is specifically written for the writing, compiling, debugging and profiling of an application or other programming task. Some of these IDE's are dedicated to just the one programming language, or can support multiple programming languages. They have their own build system, but some can be configured to use another if required. These types of code editors have a lot more features and settings than the other types previously mentioned. This is due to the IDEs supporting project management and various configurations data.
 
 Examples of integrated development environments:
 
