@@ -13,17 +13,17 @@ This tutorial will go through the steps to set up a development environment for 
 
 On Windows the GCC tool chain is known as MinGW (aka Minimalist Gnu for Windows). The setup for MinGW can get a bit tricky, as it depends on how you want to set up the development environment, but the basics require that MinGW can either be downloaded and used stand alone, or alternatively download as part of a posix environment, such as MSYS2, which can give you access to cool libraries and tools that you would normally find on a Linux, or macOS system setup. Whichever is chosen. You have to decide if you want to use MinGW system wide or a build environment launched from a script.
 
-### MinGW Installation
+#### MinGW Installation
 
 The current trend for installing MinGW is via [***MSYS2***](https://www.msys2.org). This is a Linux like posix terminal environment. The MSYS2 a rolling release that actually comes with a number of [*runtime environments*](https://www.msys2.org/docs/environments/), with the current version of MSYS2 favouring the 64 bit **U**niversal **C** **R**un **T**ime (aka **UCRT64**). You will need to pay attention to the directory structures, as you will need these later.
 
 The alternate method is to download a specific version and install or extract the files to a directory. The most common location is to setup the files on the main system drive e.g. **C:\MinGW**. You can download, or build a version of MinGW from [*https://www.mingw-w64.org/*](https://www.mingw-w64.org/).
 
-### MinGW System Wide
+#### MinGW System Wide
 
 To use MinGw system wide. You have to add the MinGW bin directory to the systems **PATH** environment variable. You simple do this by clicking on the **Windows System Start Menu** and search for **Edit** the system Environment Variables. In the **System Properties** dialog, click the **Environment  Variables...** button. And in the dialog, find the **path** variable in the **System Variables** sections and click the **Edit** button. And add the MinGW bin directory path. The next time you reboot the computer, MinGW will be system wide. The alternative to system wide, is to add the MinGW bin path to **Path** in the **Use Environment** section.
 
-### MinGW Shell Script
+#### MinGW Shell Script
 
 Another way is to write a BATCH file, or PowerShell script to add the MinGW path the current users **Path** and then automatically start a new command shell, or an editor.
 
@@ -45,16 +45,51 @@ param(
     set-location $dir
     start-process powershell
     # Start VS Code with a specific VS Code user defined profile at a specific directory.
-    # Start-Process -PassThru -FilePath "C:\Program Files\Microsoft VS Code\Code.exe" "--profile `"C/C++ Dev`" $dir"</span>
+    # Start-Process -PassThru -FilePath "C:\Program Files\Microsoft VS Code\Code.exe" "--profile `"C/C++ Dev`" $dir"
 ```
+
+</br>
 
 ### GCC On Linux
 
-On Linux. You install GCC via the Linux distribution's package manager. Now this depends on the type of package manager and the actual names used for the various packages. This is beyond the scope of this document, and it is highly recommended that the distributions documentation on the package manager should be consulted on how to search and install packages. You can try general search terms such a GCC, g++, or C++ to find compilers tools.
+On Linux. You install GCC via the Linux distribution's package manager. Now this depends on the type of package manager, the distribution and the actual names used for the various packages. Many distributions have what is call a base development package that installs the core build tools used for development. It is recommended that you search the distributions support forum for details on development packages. Below are a number of terminal command lines for the most popular distributions for the installation of base development packages.
+
+#### Linux distributions derived from Debian or Ubuntu
+
+```text
+sudo update
+sudo apt install build-essential
+```
+
+#### OpenSUSE
+
+```text
+sudo zypper ref
+sudo zypper up
+sudo zypper in -t pattern devel_basis
+```
+
+#### Fedora 41 and later
+
+```text
+sudo dnf update
+sudo dnf install @c-development
+```
+
+#### Arch Linux
+
+```text
+sudo pacman -Syu
+sudo pacman -S base-devel
+```
+
+</br>
 
 ### GCC On macOS
 
-On macOS. You have to install XCode to the **Application** directory and the XCode command line developer tools in an open terminal shell with `xcode-select --install`.</br></br>
+On macOS. You have to install [*XCode*](https://developer.apple.com/xcode/) to the **Application** directory and the XCode command line developer tools in an open terminal shell with `xcode-select --install`.</br></br>
+
+</br>
 
 ## Step Two: Build Tool Environment
 
@@ -78,6 +113,8 @@ Here is a list of current build systems that either are true make tools, or make
 * [AutoMake/AutoTools](https://www.gnu.org/software/automake/manual/html_node/index.html#SEC_Contents)
 
 All of these build systems have a bit of a learning curve, but once learned can make building applications a lot easier. The current trend is to use CMake to generate a files that can be used with a make build system, or number of integrated development environments.
+
+</br>
 
 ## Step Three: Code Editor
 
