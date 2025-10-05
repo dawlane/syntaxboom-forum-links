@@ -11,13 +11,15 @@ The best development environment for Microsoft Windows and other Microsoft produ
 
 At the time of writing. The current releases of Visual Studio is Visual Studio 2022 and Visual Studio Build Tools 2022 (both at version 17.14). There is also Visual Studio 2026 available from Visual Studio Insiders, basically beta builds for testing.
 
-## Visual Studio 20xx And Visual Studio Build Tools 20xx
+## Visual Studio 2019+ And Visual Studio Build Tools 2019+
 
 So you may be asking what is the difference between the regular Visual Studio and Visual Studio Build Tools editions. Well the Build Tools edition doesn't come with the overhead of a full blown Integrated Development Environment, but it should be noted that not all of the components will be available between the Build Tools and other editions of Visual Studio. Take for example the components that would only be available to the paid editions, you wouldn't see them being made available to the community edition.
 
 You can download the current version of Visual Studio from [*here*](https://visualstudio.microsoft.com/). Or for a specific version and providing that the download is still available, you can try the online [***Visual Studio documentation***](https://learn.microsoft.com/en-us/visualstudio/ide). The actual download links for the various editions are buried within the section [***Installation/Administrator guide/Install by using command-line parameters***](https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio). Alternatively, you can get the downloads by having a [***Microsoft Developer Essentials***](https://visualstudio.microsoft.com/dev-essentials/) account.
 
 ### Visual Studio Installers on the commandline
+
+**NOTE:** This tutorial doesn't support version of Visual Studio released prior to Visual Studio 2019.
 
 If you have followed the **Visual Studio documentation** information from above. It will show all the options that you can pass to the Visual Studio installer. One of the options allows us to pass a configuration file with the file extension of ***vsconfig***. This means that we can write a file to tell the Visual Studio installer what components to install.
 
