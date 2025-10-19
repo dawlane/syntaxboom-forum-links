@@ -180,7 +180,7 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 *Requires third-party tools and software development kits. For iOS and macOS you will require Apple hardware. And possibly in the case of iOS, an [Apple Developer account](https://developer.apple.com/).*
 </br></br>
 
-[**CLion**](https://www.jetbrains.com/clion/) - (Windows, Linux & macOS)  
+[**CLion**](https://www.jetbrains.com/clion/) (*Windows, Linux & macOS*)  
 **CLion** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. **CLion** is based off the IntelliJ Idea IDE, and is free for non commercial use. The IDE is geared towards C/C++ development.
 *Requires third-party tools and software development kits.*
 </br></br>
@@ -195,7 +195,7 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**DataGrip**](https://www.jetbrains.com/datagrip/) (Windows, Linux & macOS)  
+[**DataGrip**](https://www.jetbrains.com/datagrip/) (*Windows, Linux & macOS*)  
 **DataGrip** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. It's a paid for separate product based off the IntelliJ Idea IDE, and is geared towards SQL and relational data bases.  
 *Requires third-party tools and software development kits.*
 </br></br>
@@ -219,12 +219,12 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**GoLand**](https://www.jetbrains.com/go/) - (Windows, Linux & macOS)  
+[**GoLand**](https://www.jetbrains.com/go/) (*Windows, Linux & macOS*)  
 **GoLand** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. It's a paid for separate product based off the IntelliJ Idea IDE, and is geared towards creating software in the Go language.
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**IntelliJ Idea**](https://www.jetbrains.com/idea/) - (Windows, Linux & macOS)  
+[**IntelliJ Idea**](https://www.jetbrains.com/idea/) (*Windows, Linux & macOS*)  
 **IntelliJ Idea** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. **Intellij Idea** is not only a paid product, but also comes in a community edition. The IDE's primary use if to develop Java/Kotlin application, but there are plugin extensions for additional languages and tools. **NOTE**: That there are no language extension plugins for Intellij Idea where Jetbrains already offer an IDE for a give language.  
 *Requires third-party tools and software development kits.*
 </br></br>
@@ -252,27 +252,27 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**PhpStorm**](https://www.jetbrains.com/phpstorm/) (Windows, Linux & macOS)  
+[**PhpStorm**](https://www.jetbrains.com/phpstorm/) (*Windows, Linux & macOS*)  
 **PhpStorm** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. It's a paid for separate product based off the IntelliJ Idea IDE, and is geared towards php web based development.  
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**PyCharm**](https://www.jetbrains.com/pycharm/) (Windows, Linux & macOS)
+[**PyCharm**](https://www.jetbrains.com/pycharm/) (*Windows, Linux & macOS*)  
 **PyCharm** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. **PyCharm** is not only a paid product, but also comes in a community edition. The IDE's is geared towards the creation of application using the **Python** programming language.  
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**Rider**](https://www.jetbrains.com/rider/) (Windows, Linux & macOS)  
+[**Rider**](https://www.jetbrains.com/rider/) (*Windows, Linux & macOS*)  
 **Rider** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. **Rider** is based off the IntelliJ Idea IDE, and is free for non commercial use. The IDE is geared towards creating dot net (aka .net) applications.
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**RubyMine**](https://www.jetbrains.com/rubymine/) (Windows, Linux & macOS)  
+[**RubyMine**](https://www.jetbrains.com/rubymine/) (*Windows, Linux & macOS*)  
 **RubyMine** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. It's a paid for separate product based off the IntelliJ Idea IDE, and is geared towards applications created in Ruby.  
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**RustOver**](https://www.jetbrains.com/rustover/) (Windows, Linux & macOS)  
+[**RustOver**](https://www.jetbrains.com/rustover/) (*Windows, Linux & macOS*)  
 **RustOver** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. RustOver is based off the IntelliJ Idea IDE and is free for non commercial use. The IDE is geared towards applications in the Rust programming language.  
 *Requires third-party tools and software development kits.*
 </br></br>
@@ -282,7 +282,7 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**U++**](https://www.ultimatepp.org/) (Windows, Linux & macOS)  
+[**U++**](https://www.ultimatepp.org/) (*Windows, Linux & macOS*)  
 [***U++***](https://en.wikipedia.org/wiki/Ultimate%2B%2B) is C/C++ an integrated development environment that uses it's framework to develop GUI applications.
 </br></br>
 
@@ -291,7 +291,7 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 *Requires third-party tools and software development kits.*
 </br></br>
 
-[**WebStorm**](https://www.jetbrains.com/webstorm/) (Windows, Linux & macOS)  
+[**WebStorm**](https://www.jetbrains.com/webstorm/) (*Windows, Linux & macOS*)  
 **WebStorm** is a product created by [***Jetbrains***](https://en.wikipedia.org/wiki/JetBrains), who also produce a number of other integrated development environments, tools and languages. RustOver is based off the IntelliJ Idea IDE and is free for non commercial use. The IDE is geared towards JavaScript and TypeScript development.  
 *Requires third-party tools and software development kits.*
 </br></br>
