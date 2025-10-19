@@ -22,11 +22,28 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 
 ## 2D Software
 
+[**Aseprite**](https://www.aseprite.org/) (*Windows, macOS & Linux*)  
+[**Aseprite**](https://en.wikipedia.org/wiki/Aseprite) is a proprietary pixel and animation to for developing 2D pixel art games. Features include different tools for image and animation editing such as layers, frames, tile map support, command-line interface, Lua scripting.
+
 [**GNU Image Manipulation Program**](https://www.gimp.org/) (*Window, Linux & macOS*)  
 [***GIMP***](https://en.wikipedia.org/wiki/GIMP) is a free and open source cross platform raster image editor. It is commonly used for photo retouching, image editing, free-hand drawing, and converting between different image file formats.
 
+[**GrafX2**](http://grafx2.chez.com/) (*Windows, Linux & macOS*)  
+**GrafX2** is a bitmap paint program inspired by the Amiga programs ​Deluxe Paint and Brilliance. It specializes in 256-color drawing, and includes a very large number of tools and effects that make it particularly suitable for pixel art, game graphics, and generally any detailed graphics painted with a mouse.
+
 [**Inkscape**](https://inkscape.org/) (*Window, Linux & macOS*)  
 [***Inkscape***](https://en.wikipedia.org/wiki/Inkscape) is a free and open source cross platform vector image creation application. It's commonly use to create vector art such as logos and application icons, but can also be used to create fonts.
+
+[**Krita**](https://krita.org/en/) (*Windows, macOS, Linux*)  
+[**Krita**](https://en.wikipedia.org/wiki/Krita) is a free and open-source raster graphics editor designed primarily for digital art and 2D animation.
+
+[**Libresprite**](https://libresprite.github.io/#!/) (*Windows, macOS & Linux*)  
+**Libresrite** started as a fork from [**Aseprite**](https://www.aseprite.org/). It diverged from **Aseprite** around 2016.  
+
+[**Pixel Studio**](https://store.steampowered.com/app/1204050/Pixel_Studio__pixel_art_editor/) (*Windows*)  
+**Pixel Studio** is a new pixel art editor for artists and game developers. It's simple, fast and portable. It features the use of layes and frame-by-frame animation. 
+
+[**PIEXLMASH**](https://nevercenter.com/pixelmash/) is a pixel art creation and animation tool that uses vector based layers and pixel based images.
 
 [**Photofiltre**](https://www.photofiltre-studio.com/) (*Windows*)  
 [***Photofiltre***](https://en.wikipedia.org/wiki/PhotoFiltre) is an application for editing and applying effects to images.
@@ -118,7 +135,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Ultimate Unwrap 3D** is an application for unwrapping 3D models to apply 2D textures. It supports any 3D and image formats.
 
 [**UVLayout**](https://www.uvlayout.com/) (*Windows, macOS & Linux*)  
-**Ultimate Unwrap 3D** is an application for unwrapping 3D models to apply 2D textures.
+**UVLayout** is a stand-alone application the comes in three editions for unwrapping 3D models to apply 2D textures. It's rather expensive for the initial cost, as you get a dongle and one year of updates. After the initial cost, those with the Professional and Hobbyist licences and go on to buy another years subscription.
 
 ## Font Editing Software
 
