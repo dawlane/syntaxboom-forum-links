@@ -43,7 +43,8 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 [**Pixel Studio**](https://store.steampowered.com/app/1204050/Pixel_Studio__pixel_art_editor/) (*Windows*)  
 **Pixel Studio** is a new pixel art editor for artists and game developers. It's simple, fast and portable. It features the use of layes and frame-by-frame animation. 
 
-[**PIEXLMASH**](https://nevercenter.com/pixelmash/) is a pixel art creation and animation tool that uses vector based layers and pixel based images.
+[**PIEXLMASH**](https://nevercenter.com/pixelmash/) (*Window & macOS*)  
+**PIXELMASH** is a pixel art creation and animation tool that uses vector based layers and pixel based images.
 
 [**Photofiltre**](https://www.photofiltre-studio.com/) (*Windows*)  
 [***Photofiltre***](https://en.wikipedia.org/wiki/PhotoFiltre) is an application for editing and applying effects to images.
