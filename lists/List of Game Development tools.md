@@ -77,14 +77,22 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 
 ## Music Creation Software
 
+[**Bitwig**](https://www.bitwig.com/) (*Windows, macOS & Linux*)  
+[***Bitwig***](https://en.wikipedia.org/wiki/Bitwig_Studio) is a cross platform proprietary Digital Audio Workstation (DAW) created by Bitwig GmbH. It's designed to be an instrument for live performances, as well as a tool for creating music.
+
 [**Fl Studio**](https://www.image-line.com/) (*Windows & macOS*)  
-[***Fl Studio***](https://en.wikipedia.org/wiki/FL_Studio) is a Digital Audio Workstation (DAW) used for creating Music. FL Studio can be used as either a Virtual Studio Technology (VST) or Audio Unit (AU) instrument in other audio workstation programs, and as a ReWire client.
+[***Fl Studio***](https://en.wikipedia.org/wiki/FL_Studio) is a Digital Audio Workstation (DAW) used for creating Music. FL Studio can be used as either a Virtual Studio Technology (VST) or Audio Unit (AU) instrument in other audio workstation programs, and as a ReWire client.  
+**NOTE:** it is possible to run FL Studio on Linux under [*WINE*](https://en.wikipedia.org/wiki/Wine_(software)). But some third-party VST plugins may not work correctly or not at all.
 
 [**LMMS**](https://lmms.io/) (*Windows, macOS & Linux*)  
-[***LMMS***](https://en.wikipedia.org/wiki/LMMS) is a free and open source Digital Audio Workstation (DAW) application. The Windows version can support the use of VST plug-ins on Win32, Win64, or Wine32 on Linux.
+[***LMMS***](https://en.wikipedia.org/wiki/LMMS) is a free and open source Digital Audio Workstation (DAW) application. The Windows version can support the use of VST plug-ins on Win32, Win64, or most VST plugins using Wine32 on Linux.
 
 [**OpenMPT**](https://openmpt.org/) (*Windows*)  
 [***OpenMPT***](https://en.wikipedia.org/wiki/OpenMPT) is a free and open source music tracker. It supports samples, VST plugins and OPL3 instruments as sound sources.
+
+[**Renoise**](https://www.renoise.com/) (*Windows, macOS & Linux*)  
+[***Renoise***](https://en.wikipedia.org/wiki/Renoise) is a Digital Audio Workstation (DAW) music tracker. It supports full MIDI and MIDI sync, VST 3 plugins, ASIO multi I/O cards, has an integrated sampler and sample editor, and real-time DSP effects.  
+**NOTE:** The Linux version will require administrator rights, modification of the /etc/security/limits.conf. And the user being added to the audio group, and power saving being set to performance.
 
 ## Audio Creation and Editing Software
 
@@ -117,7 +125,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Tiled** is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones. It can be used to create maps of any size, with no restrictions on tile size, or the number of layers or tiles that can be used.
 
 [**QuArK**](https://quark.sourceforge.io/) (*Windows*)   
-[***QuArK***](https://quark.sourceforge.io/) stands for Quake Army Knife. And is a 3D level editing tools that was primarily used for the editing of Quake levels. It currently supports 5 game engines, and 
+[***QuArK***](https://quark.sourceforge.io/) stands for Quake Army Knife. And is a 3D level editing tools that was primarily used for the editing of Quake levels. It currently supports 5 game engines.
 
 ## Texture Generators
 
