@@ -7,823 +7,374 @@ If they don't appear to be what is advertised, or look suspicious.
 Then PM an administrator so they can be removed, or updated with the correct information.  
 **So use these links and any associated software from these sites at your own risk!**
 
-- [3D/2D Game Libraries and Game Render Engines](#3d2d-game-libraries-and-game-render-engines)  
-- [2D Game Libraries and Game Render Engines](#2d-game-libraries-and-game-render-engines)  
-- [Low Level Development Libraries](#low-level-development-libraries)  
-- [Audio Development Libraries](#audio-development-libraries)  
-- [Physics Engines Libraries](#physics-engines-libraries)  
+## Table of Contents
 
-## 3D/2D Game Libraries and Game Render Engines
+### Game Engines
+- [AppGameKit](#appgamekit)
+- [C4 Engine](#c4-engine)
+- [CryEngine](#cryengine)
+- [Dagor Engine](#dagor-engine)
+- [Defold](#defold)
+- [GDevelop](#gdevelop)
+- [Godot Engine](#godot-engine)
+- [Stride](#stride)
+- [Unigine](#unigine)
+- [Unity](#unity)
+- [Unreal Engine](#unreal-engine)
+- [Ursina Engine](#ursina-engine)
 
-<table name="agk" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.thegamecreators.com/"><b>App GAme Kit</b></a></td>
+### Frameworks & Libraries
+- [Babylon.js](#babylonjs)
+- [bgfx](#bgfx)
+- [ClanLib](#clanlib)
+- [Clickteam Fusion](#clickteam-fusion)
+- [Construct](#construct)
+- [Cube 2 (Sauerbraten)](#cube-2)
+- [jMonkeyEngine](#jmonkeyengine)
+- [libGDX](#libgdx)
+- [MonoGame](#monogame)
+- [Phaser](#phaser)
+- [RayLib](#raylib)
+
+### Rendering / Low-Level Engines
+- [Horde3D](#horde3d)
+- [Ogre3D](#ogre3d)
+- [Open 3D Engine (O3DE)](#o3de)
+- [Wicked Engine](#wicked-engine)
+
+---
+
+# Game Engines
+
+<a name="appgamekit"></a>
+<table name="AppGameKit" style="border: 1px solid">
+<td style="border: 0px"><a href="https://appgamekit.com/"><b>AppGameKit</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">AppGameKit offers a high level coding and programming tool which aims to be easy for beginners to learn, featuring AGK Script which evolves the DarkBASIC language.</td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
+<td valign="top">AppGameKit, created by <a href="https://en.wikipedia.org/wiki/The_Game_Creators">The Game Creators</a>. Is an easy-to-use game development engine designed for beginners and hobbyist developers, while still being capable of producing commercial-quality games. It provides a simplified API for handling graphics, input, physics, and audio, allowing developers to quickly prototype and build 2D and basic 3D applications.</td>
+<td valign="top">Commercial licence</td>
+<td valign="top">AGK BASIC<br>C++</td>
+<td valign="top">Windows, Linux, macOS, Android & iOS</td>
 </tr>
 </table>
 
-<table name="babylon" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.babylonjs.com/"><b>Babylon.js</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Babylon.js is a JavaScript library and 3D engine for displaying real time 3D graphics in a web browser via HTML5.</td>
-    <td valign="top"><a href="https://www.apache.org/licenses/">Apacahe 2.0</td>
-    <td valign="top">JavaScript</td>
-    <td valign="top"><b>Internet:</b> HTML 5 Web-based</td>
-</tr>
-</table>
-
-<table name="bgfx" style="border: 1px solid">
-<td style="border: 0px"><a href="https://github.com/bkaradzic/bgfx"><b>bgfx</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Is a cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.</br></br><b>Currently Supported Backend Renderers:</b> Direct3D (11 & 12), GNM (only for licensed PS4 developers, search DevNet forums for source), Metal, OpenGL (ES 2, ES 3.1, 2.1, 3.1+), Vulkan, WebGL 1.0, WebGL 2.0</br></br><b>Supported Compilers:</b> Clang 11 and above, GCC 11 and above, VS2022 and above, Apple clang 12 and above</td>
-    <td valign="top"><a href="https://opensource.org/license/BSD-2-Clause.">BSD 2-Clause License</a></td>
-    <td valign="top">C/C++, Beef, C#, D, Go, Haskell, Lightweight Java Game Library 3, Lua, Nim, Pascal, Python, Python, Rust, Swift & Zig</td>
-    <td valign="top"><b>Desktop:</b> Windows (7+), macOS (13.0+) & Linux.</br></br><b>Mobile:</b> Android (4.0+) & iOS/iPadOS/tvOS (16.0+).</br></br><b>Console:</b> PlayStation 4 & Xbox One.</br></br><b>Single Board Computers:</b> RaspberryPi.</br></br><b>Internet:</b> Web browsers supporting <a href="https://webassembly.org/">Wasm</a> & <a href="https://emscripten.org/">Emscripten</a>.</td>
-</tr>
-</table>
-
-<table name="c4engine" style="border: 1px solid">
+<a name="c4-engine"></a>
+<table name="C4 Engine" style="border: 1px solid">
 <td style="border: 0px"><a href="https://c4engine.com/"><b>C4 Engine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">C4 Engine is an OpenGL based games engine that supports Audio, Networking and physics. It has a number of tools for world editing, scripting and an editor for 2D panels.</td>
-    <td valign="top">Proprietary: One licence per-person</td>
-    <td valign="top">C/C++</td>
-    <td valign="top"><b>Desktop: </b>Windows 10/11.</br></br><b>Console</b> PlayStation 4/5 and Xbox Series X/S/One.</td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/C4_Engine">C4 Engine</a> is a comprehensive 3D game engine focused on real-time rendering and simulation. It includes an integrated world editor, scripting systems, networking support, and advanced rendering techniques designed for professional-quality game development.</td>
+<td valign="top"><a href="https://c4engine.com/">Commercial licence</a></td>
+<td valign="top">C++</td>
+<td valign="top">Windows 10/11, Playstation 4/5, Xbox Series X/S & Xbox One.</td>
 </tr>
 </table>
 
-<table name="clanlib" style="border: 1px solid">
-<td style="border: 0px"><a href="https://github.com/sphair/ClanLib"><b>ClanLib</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">ClanLib is a free and open source cross-platform toolkit library with a primary focus on game creation.</td>
-    <td valign="top"><a href="https://github.com/sphair/ClanLib/blob/master/COPYING">ClanLib Licence (zlib style)</a></td>
-    <td valign="top">C/C++</td>
-    <td valign="top"><b>Desktop:</b> Windows, Linux & macOS.</td>
-</tr>
-</table>
-
-<table name="construct" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.construct.net/en"><b>Construct</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Construct is an HTLM5-based 2D video game engine. It's aimed primarily at non-programmers, allowing quick creation of games through visual programming.</br></br></td>
-    <td valign="top">At the time of writing, there are three licencing plans: Personal, Business and Edutcationsl. See <a href="https://www.construct.net/en/make-games/buy-construct">here</a>.</td>
-    <td valign="top">JavaScript</td>
-    <td valign="top"><b>Internet:</b> Web Browsers</td>
-</tr>
-</table>
-
-<table name="fusion" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.clickteam.com/"><b>Click Team Fusion</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Fusion is 2D game engine, primarily aimed at non-programmers. At the time of writing, Fusion is at version 2.5.</br></br>Depending on the version. You can export to other devices.</br></br><b style="color: red">NOTE:</b> The macOS version is Windows 32 bit version running under the 32bit version of Wine. And will only run on macOS operating systems from 10.9 to 10.14.</td>
-    <td valign="top">At the time of writing, there are three licencing plans: Fusion Free, Fusion Standard & Fusion Developer. See <a href="https://www.clickteam.com/compare-versions">here</a>.</td>
-    <td valign="top"></td>
-    <td valign="top"><b>Fusion Free:</b> Web Browsers</br></br><b>Fusion Standard/Developer:</b> Web Browsers, Windows, macOS, iOS & Android.</td>
-</tr>
-</table>
-
-<table name="cryengine" style="border: 1px solid">
+<a name="cryengine"></a>
+<table name="CryEngine" style="border: 1px solid">
 <td style="border: 0px"><a href="https://www.cryengine.com/"><b>CryEngine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">CryEngine is multi-platform game engine. It's used in many AAA games, such as Crysis. It requires a MS Windows development environment.</td>
-    <td valign="top">Source-available commercial software with royalty model for commercial use.</br></br> At the time of writing, this a 5% royalty when your project is shipped. The first $5K annual revenue per a project is royalty-free.</td>
-    <td valign="top">C++, Lua & C#</td>
-    <td valign="top"><b>Desktop:</b> Windows & Linux</br></br><b>Console:</b> Playstation 3/4/5, Nintendo Switch, Nintendo Wii/Wii U & XBox 360/One/Series X/S.</td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/CryEngine">CryEngine</a> is a powerful real-time game engine developed by Crytek, known for delivering highly realistic visuals and large-scale environments. It provides advanced rendering, physics simulation, AI systems, and tools for creating immersive interactive experiences.</td>
+<td valign="top"><a href="https://www.cryengine.com/support/view/licensing">Royalty-based licence</a></td>
+<td valign="top">C++<br>Lua</td>
+<td valign="top">Windows, Linux, PlayStation, Xbox Series & Nintendo Switch</td>
 </tr>
 </table>
 
-<table name="cube2" style="border: 1px solid">
-<td style="border: 0px"><a href="http://sauerbraten.org/"><b style="color: red">Cube 2 Engine !CAUTION: Not a https address</b></br></a><a href="https://sourceforge.net/projects/sauerbraten/"><b>Files host on Sourceforge</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Cube 2 Engine is a cross-platform game that just happens to come with it's own game engine that can be use to create your own games. The engine it's self is released under the zlib licence, but the game and it's assets are release under various other licences. You can think as the game is like Quake (the code is open source, but it's media is not).</td>
-    <td valign="top">The engine is released under the zlib licence. The game and assets are released under various others.</br>See <a href="http://sauerbraten.org/README.html#license">here</a>.</td>
-    <td valign="top"></td>
-    <td valign="top"><b>Desktop:</b> Windows, Linux & macOS.</td>
-</tr>
-</table>
-
-<table name="dagorengine" style="border: 1px solid">
+<a name="dagor-engine"></a>
+<table name="Dagor Engine" style="border: 1px solid">
 <td style="border: 0px"><a href="https://github.com/GaijinEntertainment/DagorEngine"><b>Dagor Engine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">The Dagor Engine is an open source cross-platform game engine and tools for the creation of 3D games, with the most notable being War Thunder. It supports DirectX 12, Vulkan, and Metal API's. It supports third-party open source industry standard solutions for physics simulation.</td>
-    <td valign="top"><a href="https://github.com/GaijinEntertainment/DagorEngine/blob/main/LICENSE">BSD 3-Clause Licence</a></td>
-    <td valign="top">C++</td>
-    <td valign="top"><b>Desktop:</b> Windows & Linux</br></br><b>Mobile:</b> iOS & Android</br></br><b>Console:</b> Playstation 4/5, XBox One/Series X/S, & Nintendo Switch.</td>
+<td valign="top">Dagor Engine was originally a proprietary game engine developed by <a href="https://en.wikipedia.org/wiki/Gaijin_Entertainment">Gaijin Entertainment</a>, primarily used for large-scale multiplayer games such as military simulations. It is designed to handle complex environments, physics, and networking. As of 2023, this game engine was being opened up under the BSD 3-Clause License.</td>
+<td valign="top"><a href="https://gaijinentertainment.github.io/DagorEngine/getting-started/license.html">BSD 3-Clause License</a></td>
+<td valign="top">C++</td>
+<td valign="top">Windows, Linux, PlayStation & Xbox</td>
 </tr>
 </table>
 
-<table name="defold" style="border: 1px solid">
+<a name="defold"></a>
+<table name="Defold" style="border: 1px solid">
 <td style="border: 0px"><a href="https://defold.com/"><b>Defold</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Defold is a cross-platform, free and source available game engine originally developed by <a href="https://en.wikipedia.org/wiki/King_(company)">King</a>, and later the <a href="https://defold.com/foundation/">Defold Foundation</a>.</br></br>It's used to create 2D games, but is capable of creating 3D games as well. It comes with it's own embedded Integrated Development Environment, featuring a visual editor and code editor, scene editor, particle editor, tile map editor and supports Lua scripting and a Lua script debugger.</td>
-    <td valign="top"><a href="https://github.com/defold/defold/blob/dev/LICENSE.txt">Defold Licence</a></td>
-    <td valign="top">C++ and Lua</td>
-    <td valign="top"><b>Desktop:</b> Windows, Linux and macOS.</br></br><b>Mobile:</b> Android & iOS.</br></br><b>Console:</b> Playstation 4/5, Nintendo Switch & Soon XBox.</br></br>Supports HTML5 web browsers and integration with Steam and Facebook.</td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Defold">Defold</a> is a free and open-source game engine designed for building cross-platform 2D games. It features an efficient workflow, lightweight runtime, and strong performance across mobile and web platforms.</td>
+<td valign="top"><a href="https://github.com/defold/defold/blob/dev/LICENSE.txt">Defold License</a></td>
+<td valign="top">Lua</td>
+<td valign="top">Windows, Linux, macOS, Android, iOS & Web</td>
 </tr>
 </table>
 
-<table name="gdevelop" style="border: 1px solid">
+<a name="gdevelop"></a>
+<table name="GDevelop" style="border: 1px solid">
 <td style="border: 0px"><a href="https://gdevelop.io/"><b>GDevelop</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">GDevelop is 2D/2D cross-platform, free and open source game engine. It aims to allow the creation of games for people without any programming languages.</br></br><b>NOTE:</b> That the <a href="https://en.wikipedia.org/wiki/GDevelop">GDevelop wiki</a> states that it free and open source, this seems to be a bit contradictory with the inclusion of pricing plans, but the sources can be found <a href="https://github.com/4ian/GDevelop">here</a>.</td>
-    <td valign="top">As of the time of writing. The GDevelop editor and engine are under the MIT licence, but also has four pricing plans. These are Free, Silver, Gold and Pro. Each of these plans allow more features and services.</td>
-    <td valign="top"></td>
-    <td valign="top"><b>Desktop:</b> Windows, Linux and macOS.</br></br><b>Mobile: Android & iOS.</b></br></br><b>Internet:</b> Web browsers and Facebook.</td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/GDevelop">GDevelop</a> is an open-source, no-code game creation platform that allows users to build games using an event-based system without traditional programming knowledge.</td>
+<td valign="top"><a href="https://github.com/4ian/GDevelop/blob/master/LICENSE.md">MIT Licence and others</a></td>
+<td valign="top">Event system<br>JavaScript</td>
+<td valign="top">Windows, Linux, macOS, Android, iOS & Web</td>
 </tr>
 </table>
 
-<table name="godot" style="border: 1px solid">
-<td style="border: 0px"><a href="https://godotengine.org/"><b>Godot</b></a></td>
+<a name="godot-engine"></a>
+<table name="Godot Engine" style="border: 1px solid">
+<td style="border: 0px"><a href="https://godotengine.org/"><b>Godot Engine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Godot is an open source cross-platform game engine that allowes game developers to create 2D and 3D games using multiple programming languages.</td>
-    <td valign="top"><a href="https://github.com/godotengine/godot/blob/master/LICENSE.txt">MIT</a></td>
-    <td valign="top">GDScript, C#, C/C++, D, Swift & Rust.</td>
-    <td valign="top"><b>Desktop:</b> Windows, Linux & macOS.</br></br><b>Mobile:</b> Android & iOS.</br></br><b>Console:</b> See <a href="https://docs.godotengine.org/en/latest/tutorials/platform/consoles.html#doc-consoles">here</a>.</br></br><b>Internet: See <a href="https://docs.godotengine.org/en/latest/tutorials/editor/using_the_web_editor.html#doc-using-the-web-editor">here</a>.</b></td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Godot_(game_engine)">Godot Engine</a> is a fully open-source game engine that supports both 2D and 3D development. It features a flexible scene system, built-in scripting language, and a rapidly growing ecosystem.</td>
+<td valign="top"><a href="https://github.com/godotengine/godot/blob/master/LICENSE.txt">MIT Licence</a></td>
+<td valign="top">GDScript<br>C#<br>C++</td>
+<td valign="top">Windows<br>Linux<br>macOS<br>Android<br>iOS<br>Web</td>
 </tr>
 </table>
 
-<table name="horde3d" style="border: 1px solid">
-<td style="border: 0px"><a href="http://horde3d.org/"><b style="color: red">Horde3D !CAUTION: Not a https address</b></br></a><a href="https://github.com/horde3d/Horde3D"><b>Files host on Sourceforge</b></a> and the latest on <a href="https://github.com/horde3d/Horde3D">github</a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Horde3D is a light weight 3D rendering engine that has simple and intuitive interface accessible from virtually any programming language.</td>
-    <td valign="top"><a href="https://www.eclipse.org/legal/epl/epl-v10.html">Eclipse Public Licence v1.0</a></td>
-    <td valign="top"><b>Maintained by the Horde3D team:</b> C#.</br></br><b>Additional third-party language bindings:</b> Lua, Python, D, Pascal, Squirrel, Haskel, Java, WinDev 15, BlitzMax, Go and Lisp.</td>
-    <td valign="top"><b>Desktop:</b> Windows, Linux & macOS.</br></br><b>Mobile:</b> Android & iOS.</td>
-</tr>
-</table>
-
-<table name="jmonkeyengine" style="border: 1px solid">
-<td style="border: 0px"><a href="https://jmonkeyengine.org/"><b>jMonkeyEngine</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="libgdx" style="border: 1px solid">
-<td style="border: 0px"><a href="https://libgdx.com/"><b>libgdx</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="monogame" style="border: 1px solid">
-<td style="border: 0px"><a href="https://monogame.net/"><b>MonoGame</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="O3DE" style="border: 1px solid">
-<td style="border: 0px"><a href="https://o3de.org/"><b>O3DE</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="Ogre" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.ogre3d.org/"><b>Ogre</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="Phaser" style="border: 1px solid">
-<td style="border: 0px"><a href="https://phaser.io/"><b>Phaser</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="RayLib" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.raylib.com/"><b>RayLib</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
+<a name="stride"></a>
 <table name="Stride" style="border: 1px solid">
 <td style="border: 0px"><a href="https://www.stride3d.net/"><b>Stride</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Stride_(game_engine)">Stride</a> is a modern open-source game engine for C# and .NET developers, offering a full toolchain including an editor, rendering engine, and asset pipeline.</td>
+<td valign="top"><a href="https://github.com/stride3d/stride/blob/master/LICENSE.md">MIT Licence.</a></td>
+<td valign="top">C#</td>
+<td valign="top">Windows, Linux, macOS, UWP, Android & iOS</td>
 </tr>
 </table>
 
-<table name="Unigine" style="border: 1px solid">
-<td style="border: 0px"><a href="https://unigine.com/"><b>Unigine</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="unity" style="border: 1px solid">
+<a name="unity"></a>
+<table name="Unity" style="border: 1px solid">
 <td style="border: 0px"><a href="https://unity.com/"><b>Unity</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Unity is a cross platform game engine developed by Unity Technologies. It uses it’s own custom IDE that includes tools for working with entities, levels and game assets.</td>
-    <td valign="top">At the time of writing. There are four licencing plans: Personal, Pro Enterprise and Industry. See <a href="https://unity.com/products">here.</td>
-    <td valign="top"> C#, C/C++, Rust, <a href="https://ironpython.net/">IronPython</a>, Lua, JavaScript, SQL, HTML5 and CSS.</td>
-    <td valign="top"><b>Desktop</b> Windows (PC), Mac, Universal Windows Platform (UWP) & Linux Stand alone </br></br><b>Mobile</b> iOS & Android. </br></br><b>Extended Reality (XR)</b> ARKit, ARCore, Microsoft HoloLens, Windows Mixed Reality, Magic Leap (Lumin), Oculus & PlayStation VR2. </br></br><b>Consoles</b> PS5, PS4, Xbox One, Xbox Series X|S, Nintendo Switch, Web. </br></br><b>Embedded</b> Embedded Linux & QNX.</td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Unity_(game_engine)">Unity</a> is a widely used cross-platform game engine that supports both 2D and 3D development, offering a comprehensive editor, asset store, and extensive ecosystem.</td>
+<td valign="top"><a href="https://unity.com/legal">Commercial licence</a></td>
+<td valign="top">C#</td>
+<td valign="top">Windows, Linux, macOS, Android, iOS, Web & Consoles</td>
 </tr>
 </table>
 
-<table name="unreal" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.unrealengine.com/en-US"><b>Unreal Engine</b></a></td>
+<a name="unigine"></a>
+<table name="unigine" style="border: 1px solid">
+<td style="border: 0px"><a href="https://unigine.com/"><b>Unigine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Unreal Engine is a 3D game engine developed by Epic Games. First used in the first-person shooter Unreal. The engine comes with the latest version is Unreal Engine 5.</td>
-    <td valign="top">At the time of writing there are three licencing plans: Free, Royalty-Based and Seat-Based. See <a href="https://www.unrealengine.com/en-US/license">here.</td>
-    <td valign="top"><b>From Unreal 4:</b> C++ and <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprint-visual-scripting?application_version=4.27">Blueprint Visual Scripting</a>.</br><br>Before Unreal 4 <a href="https://unrealarchive.org/wikis/unreal-wiki/UnrealScript.html">UnrealScript</a>.</td>
-    <td valign="top"><b>Desktop:</b> Windows PC, Linux & macOS. </br></br><b>Mobile:</b> iOS & Android. </br></br><b>Console:</b> PlayStation 5, PlayStation 4, Xbox Series X, Xbox Series S, Xbox One, Nintendo Switch and SteamDeck. </br></br><b>Extended Reality (XR):</b> ARKit, ARCore, OpenXR, SteamVR and Oculus.</td>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Unigine">Unigine</a> is a high-performance real-time 3D engine widely used in
+professional simulations, industrial visualisation, and training
+applications. It supports large-scale environments, advanced rendering
+techniques, and precise physics simulation.</td>
+<td valign="top">Various</br><a href="https://unigine.com/products/engine/licensing/">See here</a></td>
+<td valign="top">C++</br>C#</td>
+<td valign="top">Windows, Linux, PlayStation & Xbox</td>
 </tr>
 </table>
 
-<table name="UrsinaEngine" style="border: 1px solid">
+<a name="unreal-engine"></a>
+<table name="Unreal Engine" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.unrealengine.com/"><b>Unreal Engine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Unreal_Engine">Unreal Engine</a> is a high-end real-time 3D creation platform developed by Epic Games, used extensively in games, film, and simulation.</td>
+<td valign="top"><a href="https://www.unrealengine.com/eula">Royalty-based licence</a></td>
+<td valign="top">C++<br>Blueprints</td>
+<td valign="top">Windows, Linux, macOS, Consoles & Mobile</td>
+</tr>
+</table>
+
+<a name="ursina-engine"></a>
+<table name="Ursina Engine" style="border: 1px solid">
 <td style="border: 0px"><a href="https://www.ursinaengine.org/"><b>Ursina Engine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Ursina Engine is a free open source 2D/3D graphics engine for Python 3. It comes with an easy to use mesh class for making procedural geometry, built-in animation and tweening, pre-made prefabs for controllers and camera and many shaders.</br> </td>
-    <td valign="top"><a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a></td>
-    <td valign="top">Python 3.12+</td>
-    <td valign="top">Windows, Linux and not officially supported but should work macOS</td>
+<td valign="top">Ursina Engine is a Python-based game engine designed for simplicity and
+rapid prototyping. Built on top of Panda3D, it allows developers to
+quickly create 3D applications with minimal boilerplate code.</td>
+<td valign="top"><a href="https://github.com/pokepetter/ursina/blob/master/LICENSE">MIT Licence</a></td>
+<td valign="top">Python</td>
+<td valign="top">Windows, Linux & macOS</td>
 </tr>
 </table>
 
-<table name="wickedengine" style="border: 1px solid">
+### Frameworks & Libraries
+
+<a name="babylonjs"></a>
+<table name="Babylon.js" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.babylonjs.com/"><b>Babylon.js</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Babylon.js">Babylon.js</a> is a powerful open-source 3D engine built on WebGL and WebGPU, designed specifically for creating rich interactive 3D experiences within web browsers. It provides advanced rendering capabilities, physics integration, animation systems, and a comprehensive toolchain for developing games and visualisations directly for the web platform.</td>
+<td valign="top"><a href="https://github.com/BabylonJS/Babylon.js/blob/master/license.md">Apache License 2.0</a></td>
+<td valign="top">JavaScript<br>TypeScript</td>
+<td valign="top">Web browsers, Windows, Linux, macOS, Android & iOS</td>
+</tr>
+</table>
+
+<a name="bgfx"></a>
+<table name="bgfx" style="border: 1px solid">
+<td style="border: 0px"><a href="https://bkaradzic.github.io/bgfx/"><b>bgfx</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top">bgfx is a cross-platform rendering library that provides a unified API over multiple graphics backends such as DirectX, OpenGL, Metal, and Vulkan. It is designed for performance and portability, allowing developers to write rendering code once and run it across a wide range of hardware and operating systems.</td>
+<td valign="top"><a href="https://github.com/bkaradzic/bgfx/blob/master/LICENSE">BSD 2-Clause Licence</a></td>
+<td valign="top">C++</td>
+<td valign="top">Windows<br>Linux<br>macOS<br>Android<br>iOS<br>Consoles</td>
+</tr>
+</table>
+
+<a name="clanlib"></a>
+<table name="ClanLib" style="border: 1px solid">
+<td style="border: 0px"><a href="https://github.com/sphair/ClanLib"><b>ClanLib</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/ClanLib">ClanLib</a> is a cross-platform C++ game development SDK that provides libraries for graphics, sound, input, networking, and GUI development. It is designed to act as a foundation for building games and multimedia applications rather than a full game engine.</td>
+<td valign="top"><a href="https://github.com/sphair/ClanLib/blob/master/COPYING">zlib Licence</a></td>
+<td valign="top">C++</td>
+<td valign="top">Windows, Linux & macOS</td>
+</tr>
+</table>
+
+<a name="clickteam-fusion"></a>
+<table name="Clickteam Fusion" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.clickteam.com/"><b>Clickteam Fusion</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Clickteam">Clickteam</a> Fusion is a visual game development tool that enables users to create games using an event-driven interface without traditional coding. It is particularly popular for rapid prototyping and 2D game creation.</td>
+<td valign="top">Commercial licence.</td>
+<td valign="top">Event system</td>
+<td valign="top">Windows, Android, iOS and HTML5</td>
+</tr>
+</table>
+
+<a name="construct"></a>
+<table name="Construct" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.construct.net/"><b>Construct</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Construct_(game_engine)">Construct</a> is a browser-based game development platform that allows users to create 2D games using a visual scripting system. It focuses on accessibility and rapid development, making it suitable for beginners and educators.</td>
+<td valign="top">Commercial<br><a href="https://www.construct.net/en/make-games/buy-construct">Pricing</a></td>
+<td valign="top">Event system<br>JavaScript</td>
+<td valign="top">Web, Windows, Android & iOS</td>
+</tr>
+</table>
+
+<a name="cube-2"></a>
+<table name="Cube 2 (Sauerbraten)" style="border: 1px solid">
+<td style="border: 0px"><a href="http://sauerbraten.org/"><b style="color: red">Cube 2 Engine !CAUTION: Not a https address</b></br></a><a href="https://sourceforge.net/projects/sauerbraten/"><b>Files host on Sourceforge</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Cube_2:_Sauerbraten">Cube 2</a>, also known as Sauerbraten, is an open-source first-person shooter engine and game that emphasises fast-paced gameplay and real-time collaborative editing. It includes a built-in level editor that allows users to modify environments during gameplay.</td>
+<td valign="top"><a href="https://github.com/kripken/intensityengine/blob/master/LICENSE.txt">zlib Licence</a></td>
+<td valign="top">C++<br>CubeScript</td>
+<td valign="top">Windows, Linux & macOS</td>
+</tr>
+</table>
+
+<a name="jmonkeyengine"></a>
+<table name="jMonkeyEngine" style="border: 1px solid">
+<td style="border: 0px"><a href="https://jmonkeyengine.org/"><b>jMonkeyEngine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/JMonkeyEngine">jMonkeyEngine</a> is a modern open-source 3D game engine designed for Java developers, providing a high-level API for graphics, physics, and input systems, along with a full SDK.</td>
+<td valign="top"><a href="https://github.com/jMonkeyEngine/jmonkeyengine/blob/master/LICENSE.md">BSD 3-Clause Licence</a></td>
+<td valign="top">Java</td>
+<td valign="top">Windows, Linux, macOS & Android</td>
+</tr>
+</table>
+
+<a name="libgdx"></a>
+<table name="libGDX" style="border: 1px solid">
+<td style="border: 0px"><a href="https://libgdx.com/"><b>libGDX</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/LibGDX">libGDX</a> is a widely used Java-based framework for developing cross-platform games, offering a unified API for graphics, audio, physics, and input handling.</td>
+<td valign="top"><a href="https://github.com/libgdx/libgdx/blob/master/LICENSE">Apache 2.0</a></td>
+<td valign="top">Java<br>Kotlin</td>
+<td valign="top">Windows, Linux, macOS, Android, iOS & Web</td>
+</tr>
+</table>
+
+<a name="monogame"></a>
+<table name="MonoGame" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.monogame.net/"><b>MonoGame</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/MonoGame">MonoGame</a> is an open-source implementation of the Microsoft XNA framework that allows developers to build cross-platform games using C# and .NET technologies.<br><b>NOTE:</b> Linux and macOS require <a href="https://www.winehq.org/">WINE</a> to be installed.</td>
+<td valign="top"><a href="https://github.com/MonoGame/MonoGame/blob/develop/LICENSE.txt">Microsoft Public License</a></td>
+<td valign="top">C#</td>
+<td valign="top">Windows, Linux, macOS, Android, iOS & Consoles</td>
+</tr>
+</table>
+
+<a name="phaser"></a>
+<table name="Phaser" style="border: 1px solid">
+<td style="border: 0px"><a href="https://phaser.io/"><b>Phaser</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Phaser_(game_framework)">Phaser</a> is a fast and feature-rich HTML5 game framework designed for building 2D games that run in modern web browsers, with support for physics, animation, and input systems.</td>
+<td valign="top"><a href="https://github.com/phaserjs/phaser/blob/master/LICENSE.md">MIT Licence</a></td>
+<td valign="top">JavaScript<br>TypeScript</td>
+<td valign="top">Web, Desktop & Mobile</td>
+</tr>
+</table>
+
+<a name="raylib"></a>
+<table name="RayLib" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.raylib.com/"><b>RayLib</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Raylib">RayLib</a> is a simple and beginner-friendly C library that provides essential functionality for game development, including graphics, audio, and input handling.</td>
+<td valign="top"><a href="https://github.com/raysan5/raylib/blob/master/LICENSE">zlib Licence</a></td>
+<td valign="top">C<br>C++</td>
+<td valign="top">Windows, Linux, macOS, Android & Web</td>
+</tr>
+</table>
+
+# Rendering / Low-Level Engines
+
+<a name="horde3d"></a>
+<table name="Horde3D" style="border: 1px solid">
+<td style="border: 0px"><a href="http://horde3d.org/"><b style="color: red">Horde3D !CAUTION: Not a https address</b></br></a><a href="https://github.com/horde3d/Horde3D"><b>Files host on Sourceforge</b></a> and the latest on <a href="https://github.com/horde3d/Horde3D">github</a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Horde3D">Horde3D</a> is a lightweight rendering engine designed for performance-focused real-time graphics applications.</td>
+<td valign="top"><a href="https://www.eclipse.org/legal/epl/epl-v10.html">Eclipse Public License v1.0 (EPL)</a></td>
+<td valign="top">C++</td>
+<td valign="top">Windows, Linux & macOS</td>
+</tr>
+</table>
+
+<a name="ogre3d"></a>
+<table name="Ogre3D" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.ogre3d.org/"><b>Ogre3D</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/OGRE">Ogre3D</a> is a scene-oriented 3D rendering engine designed to simplify graphics development while remaining flexible and extensible.<br><b>NOTE:</b> There are now two versions of this engine, with the older one supporting more features, platforms and languages.</td>
+<td valign="top"><a href="https://github.com/OGRECave/ogre/blob/master/LICENSE">MIT Licence</a></td>
+<td valign="top">C++</td>
+<td valign="top">Windows, Linux, macOS, Android & iOS</td>
+</tr>
+</table>
+
+<a name="o3de"></a>
+<table name="Open 3D Engine (O3DE)" style="border: 1px solid">
+<td style="border: 0px"><a href="https://www.o3de.org/"><b>Open 3D Engine (O3DE)</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
+<tr>
+<td valign="top"><a href="https://en.wikipedia.org/wiki/Open_3D_Engine">O3DE</a> is a modular open-source 3D engine for games, simulations, and real-time applications.</td>
+<td valign="top">Various<br><a href="https://github.com/o3de/o3de/blob/development/LICENSE.txt">See here</a></td>
+<td valign="top">C++<br>Lua</td>
+<td valign="top">Windows, Linux, Android & iOS</td>
+</tr>
+</table>
+
+<a name="wicked-engine"></a>
+<table name="Wicked Engine" style="border: 1px solid">
 <td style="border: 0px"><a href="https://wickedengine.net/"><b>Wicked Engine</b></a></td>
+<tr><td>Description</td><td>Licensing</td><td>Languages</td><td>Supported Platforms</td></tr>
 <tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top">Wicked Engine is an open source 3D engine </td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
+<td valign="top">Wicked Engine is a modern open-source rendering engine focused on advanced graphics techniques such as physically based rendering, ray tracing, and compute shaders.</td>
+<td valign="top"><a href="https://github.com/turanszkij/WickedEngine/blob/master/LICENSE.txt">MIT Licence</a></td>
+<td valign="top">C++</td>
+<td valign="top">Windows<br>Linux<br>Xbox</td>
 </tr>
 </table>
-
-## 2D Game Libraries and Game Render Engines
-
-<table name="adventuregamestudio" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.adventuregamestudio.co.uk/"><b>Adventure Game Studio</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="cocos" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.cocos.com/en"><b>Cocos2D-X</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="pygame" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.pygame.org/news"><b>PyGame</b></a> and <a href="https://github.com/pygame-community/pygame-ce"><b>Pygame Community Edition</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="ThePythonArcadeLibrary" style="border: 1px solid">
-<td style="border: 0px"><a href="https://api.arcade.academy/en/stable/"><b>The Python Arcade Library</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="renpy" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.renpy.org/"><b>Ren'Py</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="pyxel" style="border: 1px solid">
-<td style="border: 0px"><a href="https://github.com/kitao/pyxel"><b>pyxel</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-
-<table name="stencyl" style="border: 1px solid">
-<td style="border: 0px"><a href="https://stencyl.com/"><b>Stencyl</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b>Internet:</b> HTML5 Browsers.</br></br><b>Mobile:</b> iOS & Android.</br></br><b>Desktop:</b> Windows, Mac & Linux</br>
-</td>
-</tr>
-</table>
-
-## Low Level Development Libraries
-
-<table name="glfw" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.glfw.org/"><b>GLFW</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="lwjgl" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.lwjgl.org/"><b>Light Weight Java Game Library</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="Free Pascal Meets SDL" style="border: 1px solid">
-<td style="border: 0px"><a href="ttps://www.freepascal-meets-sdl.net/"><b>Free Pascal Meets SDL</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="sdl" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.libsdl.org/"><b>SDL: Simple DirectMedia Layer</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-## Audio Development Libraries
-
-<table name="FMod" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.fmod.com/"><b>FMod</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="Juce" style="border: 1px solid">
-<td style="border: 0px"><a href="https://juce.com/"><b>Juce</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>  
-
-<table name="OpenAL" style="border: 1px solid">
-<td style="border: 0px"><a href=https://www.openal.org/"><b>OpenAL</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-
-<table name="OpenAL-Soft" style="border: 1px solid">
-<td style="border: 0px"><a href="https://github.com/kcat/openal-soft"><b>OpenAL-Soft</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="SoLoud" style="border: 1px solid">
-<td style="border: 0px"><a href="https://solhsa.com/soloud/"><b>SoLoud</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="pyxel" style="border: 1px solid">
-<td style="border: 0px"><a href="https://gist.github.com/tido64/f1177d85416a09e67147"><b>Various</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-
-## Physics Engines Libraries
-
-<table name="Box2D" style="border: 1px solid">
-<td style="border: 0px"><a href="https://box2d.org/"><b>Box 2D</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="Bullet" style="border: 1px solid">
-<td style="border: 0px"><a href="https://github.com/bulletphysics/bullet3"><b>Bullet</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="NewtonDynamics" style="border: 1px solid">
-<td style="border: 0px"><a href="https://newtondynamics.com/forum/newton.php"><b>Newton Dynamics</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="OpenDynamicsEngine" style="border: 1px solid">
-<td style="border: 0px"><a href="https://www.ode.org/"><b>Open Dynamics Engine</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="nvidia" style="border: 1px solid">
-<td style="border: 0px"><a href="https://developer.nvidia.com/physx-sdk"><b>NVIDIA PhysX</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
-<table name="Project Chrono" style="border: 1px solid">
-<td style="border: 0px"><a href="https://projectchrono.org/"><b>Project Chrono</b></a></td>
-<tr>
-    <td>Description</td>
-    <td>Licencing</td>
-    <td>Languages</td>
-    <td>Supported Platforms</td>
-</tr>
-<tr>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"><b></td>
-</tr>
-</table>
-
