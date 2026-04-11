@@ -43,6 +43,11 @@ For a list of other BASIC langauges not listed here. Please see checkout **JohnB
 *Requires third-party tools and software development kits.*
 </br></br>
 
+[**CyberBasic**](https://github.com/CharmingBlaze/cyberbasic) & [**CyberBasic 2**](https://github.com/CharmingBlaze/cyberbasic2) (*Windows, macOS & Linux*)  
+CyberBasic & CyberBasic 2 is an open-source dialect of the Basic programming language geared towards 2D/3D games, and application.
+*NOTE: CyberBasic is only compiled for MS Windows. You will have to install GoLang, or a C/C++ compiler to a binary for macOS & Linux* 
+</br></br>
+
 [**FreeBasic**](https://www.freebasic.net/) (*Windows, DOS & Linux*)  
 [***FreeBasic***](https://en.wikipedia.org/wiki/FreeBASIC) is a version of BASIC based off [*QBasic*](https://en.wikipedia.org/wiki/QBasic) originally written by [*Microsoft*](https://en.wikipedia.org/wiki/Microsoft) for the [*MS DOS*](https://en.wikipedia.org/wiki/MS-DOS) and early version of MS Windows.
 </br></br>
@@ -116,6 +121,9 @@ The **Java** programming language with a C/C++ syntax style for writing cross pl
 [**Free Pascal**](https://www.freepascal.org/) (*Cross Platform*)  
 [***Free Pascal***](https://en.wikipedia.org/wiki/Free_Pascal) is a mature, open source compiler that supports a number of Pascal dialects from it's own Object Pascal, Turbo Pascal and Delphi. It follows a write once, compile anywhere philosophy and is available for many CPU architectures and operating systems. It supports inline assembly language and includes an internal assembler capable of parsing several dialects such as AT&T and Intel style syntax.
 </br></br>
+
+[**Fil-C**](https://fil-c.org/) (*Linux*)  
+Fil-C is a compatible memory safe C/C++ compiler that works in a similar fashion to rust in that it catches memory issues at compile time.
 
 [**Go (aka GoLang)**](https://go.dev/) (*Cross Platform*)  
 [***Go***](https://en.wikipedia.org/wiki/Go_(programming_language)) is a high level general purpose programming language with a C-Style syntax. It's main case usage is for cloud and network, command line interfaces and web development.
