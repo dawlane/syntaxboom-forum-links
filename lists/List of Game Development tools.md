@@ -115,8 +115,8 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 
 ## Game Level Editors
 
-[**3D-Mapper**](https://3d-mapper.com/) (*Online*)
-33D-Mapper is an online platform that converts geographic data into interactive 3D maps and exportable models. It allows users to browse any global location, overlay elevation data, and export custom map assets suitable for websites, architectural software (BIM/CAD), and 3D printing.
+[**3D-Mapper**](https://3d-mapper.com/) (*Online*)  
+3D-Mapper is an online platform that converts geographic data into interactive 3D maps and exportable models. It allows users to browse any global location, overlay elevation data, and export custom map assets suitable for websites, architectural software (BIM/CAD), and 3D printing.
 
 [**GtkRadiant**](https://icculus.org/gtkradiant/) (*Windows, Linux & macOS*)  
 [***GtkRadiant***](https://en.wikipedia.org/wiki/Quake_modding#Quake_III) is a 3D level editing tool that was primarily use for editing game level for [*id Software's Tech Engines*](https://en.wikipedia.org/wiki/Id_Tech), most notably Quake 3.
