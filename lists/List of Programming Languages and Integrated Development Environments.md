@@ -246,6 +246,9 @@ The [***LLVM***](https://en.wikipedia.org/wiki/LLVM) Compiler Infrastructure is 
 [***Lazarus IDE***](https://en.wikipedia.org/wiki/Lazarus_(software)) is a cross platform Delphi 7 style application, using **Free Pascal** compiler for Rapid Application Development. It has variety of components ready for use and a graphical form designer to easily create complex graphical user interfaces.
 </br></br>
 
+[**LiteIDE**](https://github.com/visualfc/liteide) (*Windows, Linux & macOS*)
+LiteIDE is a lightweight, open-source, and dedicated integrated development environment (IDE) built specifically for the Go (Golang) programming language.
+
 [**Microsoft Visual Studio**](https://visualstudio.microsoft.com/) (*Windows*)  
 [***Microsoft Visual Studio***](https://en.wikipedia.org/wiki/Visual_Studio) is the premier developer tool suite for developing application for any Microsoft based operating system. It also supports developing of other non Microsoft operating systems. It supports a number of languages with the most common being C/C++, C# and Visual Basic.
 </br></br>
