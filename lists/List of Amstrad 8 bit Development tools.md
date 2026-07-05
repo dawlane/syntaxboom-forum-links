@@ -95,7 +95,7 @@ The most widely used Amstrad CPC development emulator. WinAPE combines emulation
 
 [GrafX2](http://grafx2.chez.com/) (*Windows, Linux, macOS*)  
 
-A mature, cross-platform pixel art editor inspired by Deluxe Paint and designed for creating graphics for classic computer and console systems. GrafX2 includes native support for Amstrad CPC palettes and picture formats, including SCR, CM5, GraphOS (GO1/GO2), and SymbOS SGX files, making it one of the most capable modern graphics editors for CPC development. It provides layers, animation support, palette management, scripting, and numerous drawing tools suitable for producing sprites, title screens, loading screens, fonts, and other bitmap assets. Although it supports many retro platforms, its comprehensive Amstrad CPC format support makes it a valuable tool in modern CPC development workflows. ([grafx2.chez.com][2])
+A mature, cross-platform pixel art editor inspired by Deluxe Paint and designed for creating graphics for classic computer and console systems. GrafX2 includes native support for Amstrad CPC palettes and picture formats, including SCR, CM5, GraphOS (GO1/GO2), and SymbOS SGX files, making it one of the most capable modern graphics editors for CPC development. It provides layers, animation support, palette management, scripting, and numerous drawing tools suitable for producing sprites, title screens, loading screens, fonts, and other bitmap assets. Although it supports many retro platforms, its comprehensive Amstrad CPC format support makes it a valuable tool in modern CPC development workflows.
 
 ----
 
@@ -105,7 +105,7 @@ A mature, cross-platform pixel art editor inspired by Deluxe Paint and designed 
 
 [Arkos Tracker](https://www.julien-nevo.com/arkostracker/) (*Windows, Linux, macOS*)  
 
-Arkos Tracker is the de facto standard music tracker for modern Amstrad CPC development. Developed by Julien "Targhan" Névo, it is a cross-platform tracker for composing music and sound effects targeting the AY-3-8912 and YM2149 sound chips. It supports advanced pattern editing, instrument design, sample playback, MIDI import, multiple replay routines, hardware playback, and exports music as assembly source or binary data for straightforward integration into Amstrad CPC software. The latest generation, Arkos Tracker 3, is an actively developed rewrite that maintains compatibility with earlier projects while modernising the user interface and workflow. ([auamstrad.es][1])
+Arkos Tracker is the de facto standard music tracker for modern Amstrad CPC development. Developed by Julien "Targhan" Névo, it is a cross-platform tracker for composing music and sound effects targeting the AY-3-8912 and YM2149 sound chips. It supports advanced pattern editing, instrument design, sample playback, MIDI import, multiple replay routines, hardware playback, and exports music as assembly source or binary data for straightforward integration into Amstrad CPC software. The latest generation, Arkos Tracker 3, is an actively developed rewrite that maintains compatibility with earlier projects while modernising the user interface and workflow.
 
 ----
 
