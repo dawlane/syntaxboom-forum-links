@@ -88,7 +88,7 @@ A modern optimizing C compiler focused on generating efficient machine code for 
 
 ## BASIC Languages & Compilers
 
-[XC=BASIC](https://xc-basic.net/doku.php) (*Windows, Linux, macOS*)  
+[XC=BASIC 3](https://xc-basic.net/doku.php?id=v3:start) (*Windows, Linux, macOS*)  
 A modern compiled BASIC language designed specifically for Commodore 8-bit development. XC=BASIC compiles directly to native machine code rather than relying on an interpreter, allowing programs to achieve performance levels comparable to assembly-language implementations in many situations. The language provides structured programming constructs, procedures, local variables, modules, direct hardware access, inline assembly support, and integration with modern cross-development workflows. It has become one of the most widely adopted BASIC-based development systems for contemporary Commodore 64 game and application development.
 
 ----
