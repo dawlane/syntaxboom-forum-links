@@ -11,15 +11,13 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 
 - [Integrated Development Environments (IDEs)](#integrated-development-environments-ides)
 - [Assemblers](#assemblers)
-- [C/C++ Compilers](#compilers)
-- [BASIC Languages & Compilers](#basic-languages-and-compilers)
+- [Cross-Compilers & High-Level Languages](#compilers)
 - [Debuggers and Analysis Tools](#debuggers-and-analysis-tools)
 - [Emulators](#emulators)
-- [Character, Map and Tile Editors](#character-map-and-tile-editors)
 - [Sprite Editors](#sprite-editors)
 - [SID Music Editors](#sid-music-editors)
 - [Disk & Media Utilities](#disk-and-media-utilities)
-- [Asset Conversion Tools](#asset-conversion-tools)
+- [Bitmap & Graphics Editors](#bitmap-and-grahics-editors)
 
 <a id="integrated-development-environments-ides"></a>
 
@@ -68,7 +66,7 @@ A modern implementation of the classic Turbo Macro Pro assembler environment. TM
 
 <a id="compilers"></a>
 
-## C/C++ Compilers
+## Cross-Compilers & High-Level Languages
 
 [cc65](https://cc65.github.io/) (*Windows, Linux, macOS, BSD*)  
 The most widely used C compiler suite for Commodore 64 development. cc65 provides a complete cross-development toolchain including a C compiler, runtime libraries, assembler integration, linker support, debugging utilities, and project-building tools. It supports modular development, mixed C and assembly-language programming, and remains the standard choice for many modern Commodore software projects.
@@ -82,11 +80,11 @@ A modern LLVM-based compiler toolchain targeting MOS 6502-family processors. llv
 [Oscar64](https://github.com/drmortalwombat/oscar64) (*Windows, Linux, macOS*)  
 A modern optimizing C compiler focused on generating efficient machine code for Commodore systems. Oscar64 is designed for performance-critical software such as games, demos, and hardware-intensive applications. It provides aggressive optimization strategies, assembly-language integration, and a development experience tailored to the limitations and capabilities of Commodore hardware.
 
-----
+[Turbo Rascal Syntax Error (TRSE)](https://lemonspawn.com/turbo-rascal-syntax-error-expected-but-begin/) (*Windows, Linux, macOS*)  
+A Pascal-inspired cross-development suite featuring a compiler, integrated development environment, resource editors, sprite editors, map editors, asset tools, and project management facilities. TRSE generates optimized 6502 assembly code and supports the Commodore 64 as a primary target platform.
 
-<a id="basic-languages-and-compilers"></a>
-
-## BASIC Languages & Compilers
+[ugBASIC](https://ugbasic.iwashere.eu/) (*Windows, Linux, macOS*)  
+A modern BASIC cross-compiler supporting the Commodore 64 and numerous other classic computers. Programs are compiled into native machine code while providing high-level access to graphics, sprites, sound, storage, and input hardware.
 
 [XC=BASIC 3](https://xc-basic.net/doku.php?id=v3:start) (*Windows, Linux, macOS*)  
 A modern compiled BASIC language designed specifically for Commodore 8-bit development. XC=BASIC compiles directly to native machine code rather than relying on an interpreter, allowing programs to achieve performance levels comparable to assembly-language implementations in many situations. The language provides structured programming constructs, procedures, local variables, modules, direct hardware access, inline assembly support, and integration with modern cross-development workflows. It has become one of the most widely adopted BASIC-based development systems for contemporary Commodore 64 game and application development.
@@ -171,9 +169,12 @@ A dedicated Commodore disk image editor used for creating, modifying, and managi
 
 ----
 
-<a id="asset-conversion-tools"></a>
+<a id="bitmap-and-grahics-editors"></a>
 
-## Asset Conversion Tools
+## Bitmap & Graphics Editors
+
+[Multipaint](http://multipaint.kameli.net/) (*Windows, Linux, macOS*)  
+A cross-platform graphics editor designed for classic computer graphics formats. Multipaint supports Commodore 64 bitmap modes, multicolor graphics, palette restrictions, and export formats commonly used in game and demo development.
 
 [png2c64](https://png2c64.app/) (*Web Browser*)  
 A browser-based conversion tool that transforms modern PNG images into Commodore 64-compatible graphics data. It handles palette reduction, multicolour conversion constraints, and output formatting suitable for assembly and C-based development workflows. The tool is commonly used as a bridge between modern digital artwork pipelines and Commodore 64 hardware limitations.
