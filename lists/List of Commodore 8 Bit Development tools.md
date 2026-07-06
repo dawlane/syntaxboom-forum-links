@@ -59,8 +59,14 @@ A modern C# library providing a complete 6502/6510 development toolkit that comb
 [Kick Assembler](https://www.theweb.dk/KickAssembler/Main.html#frontpage) (*Windows, Linux, macOS*)  
 A powerful Java-based assembler widely used throughout the modern Commodore 64 game-development and demoscene communities. Kick Assembler offers advanced macro processing, scripting capabilities, compile-time calculations, structured programming constructs, resource generation functions, built-in data manipulation features, and automated build support. Its flexibility allows complex projects to be built from a single integrated source tree.
 
+[Ophis](https://michaelcmartin.github.io/Ophis/) (*Windows, Linux, macOS*)  
+A portable cross-assembler for the 6502 processor family emphasizing readable source code and flexible output generation. Ophis has been used successfully for Commodore 64 software as well as other 6502-based systems. It is available as standalone installers and through Python package management, making it easy to integrate into modern development environments.
+
 [Turbo Macro Pro X (TMPx)](https://turbo.style64.org/) (*Windows, Linux, macOS, FreeBSD, Solaris*)  
 A modern implementation of the classic Turbo Macro Pro assembler environment. TMPx preserves compatibility with Turbo Macro Pro source code while supporting contemporary cross-development workflows. Features include macro assembly, project-oriented development, conditional assembly, modern build integration, and support for producing Commodore 64 executable formats.
+
+[XA](https://github.com/fachat/xa65) (*Windows, Linux, macOS, BSD*)  
+A fast, portable multi-pass cross-assembler supporting the 6502, 6510, 65C02, R65C02, and 65816 processor families. XA includes a C-like preprocessor, relocatable object support, flexible expression syntax, scoped labels, and multiple output formats. It remains actively maintained and is suitable for Commodore 64 cross-development.
 
 ----
 
