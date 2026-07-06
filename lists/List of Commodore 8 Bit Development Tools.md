@@ -48,7 +48,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 * [Denise](#denise-header)
 * [Frodo](#frodo-header)
 * [Hoxs64](#hoxs64-header)
-* [VICE (Versatile Commodore Emulator)](#vice)
+* [VICE (Versatile Commodore Emulator)](#vice-header)
 
 ### [Bitmap, Map. Character & Sprite Editors](#bitmap-map-characte-and-sprite-editors-header)
 
@@ -84,6 +84,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 * [RetroPixels+](#retropixels-header)
 
 ----
+
 <a id="integrated-development-environments-ides"></a>
 
 ## Integrated Development Environments
@@ -938,7 +939,7 @@ Stable 6502 cross-assembly
 
 # Cross-Compilers & High-Level Languages
 
-<a id="cc65"></a>
+<a id="cc65-header"></a>
 
 ### <ins style="color: red">cc65</a>
 
@@ -1724,7 +1725,7 @@ Reference-grade Commodore 8-bit emulation
 
 ---
 
-<a id="bitmap-map-characte-and-sprite-editors"></a>
+<a id="bitmap-map-characte-and-sprite-editors-header"></a>
 
 ## Bitmap, Map. Character & Sprite Editors
 
@@ -2431,7 +2432,7 @@ Commodore disk image creation and editing
 
 ---
 
-<a id="frameworks-and-sdks"></a>
+<a id="frameworks-and-sdks-header"></a>
 
 ## Frameworks & SDK's
 
