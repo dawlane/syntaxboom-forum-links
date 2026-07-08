@@ -2342,7 +2342,7 @@ Bitmap Editor
 * C64
 
 **Overview**__
-arcPaint64 is a modern cross-platform pixel art editor designed specifically for Commodore 64 graphics. It provides a native drawing environment that understands VIC-II bitmap constraints instead of relying solely on post-processing conversion. The editor supports C64 bitmap creation, editing of native PRG graphics files, and workflows aimed at artists producing games, demos and digital artwork. Recent releases have introduced improved PRG importing, faster drawing operations and general workflow improvements. ([The Oasis BBS][2])
+arcPaint64 is a modern cross-platform pixel art editor designed specifically for Commodore 64 graphics. It provides a native drawing environment that understands VIC-II bitmap constraints instead of relying solely on post-processing conversion. The editor supports C64 bitmap creation, editing of native PRG graphics files, and workflows aimed at artists producing games, demos and digital artwork. Recent releases have introduced improved PRG importing, faster drawing operations and general workflow improvements.
 
 **Development Features**
 
