@@ -48,7 +48,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 * [Denise](#denise-header)
 * [Frodo](#frodo-header)
 * [Hoxs64](#hoxs64-header)
-* [VICE (Versatile Commodore Emulator)](#vice-header)
+* [VICE (Versatile Commodore Emulator)](#vice)
 
 ### [Bitmap, Map. Character & Sprite Editors](#bitmap-map-characte-and-sprite-editors-header)
 
@@ -79,12 +79,15 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 
 ### [Asset Conversion Tools](#asset-conversion-tools-header)
 
+* [arcPaint64](#arcPaint64-header)
+* [ALBERT](#albert-header)
 * [c64img](#c64img-header)
 * [Petsciiator](#petsciiator-header)
+* [png2prg](#png2prg-header)
+* [png2spd](#png2spd-header)
 * [RetroPixels+](#retropixels-header)
 
 ----
-
 <a id="integrated-development-environments-ides"></a>
 
 ## Integrated Development Environments
@@ -94,6 +97,9 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 ### <ins style="color: red">C64 Studio</ins>
 
 **Official URL**
+https://www.georg-rottensteiner.de/en/c64.html
+
+**Soure Code**
 https://github.com/GeorgRottensteiner/C64Studio
 
 **Category**
@@ -106,12 +112,6 @@ Integrated Development Environment
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Maintained
 
 **Overview**  
 C64 Studio is a comprehensive Windows-based development environment specifically designed for Commodore 64 software creation. It provides a tightly integrated workflow that combines source code editing, project organisation, asset creation tools, and build automation into a single application. Unlike lightweight editors that rely on external tooling, C64 Studio is designed as a full IDE where most aspects of C64 development can be handled without leaving the environment. It is widely used in modern C64 game and demo production pipelines due to its integrated support for graphics and assembly workflows.
@@ -162,12 +162,6 @@ Integrated Development Environment
 
 * C64
 
-**License**
-Freeware
-
-**Status**
-Distributed
-
 **Overview**  
 CBM .prg Studio is a Windows-based integrated development environment focused on Commodore 8-bit development, particularly the Commodore 64. It provides a unified workspace where developers can write assembly or BASIC code, create graphical assets, and manage projects targeting multiple Commodore systems. The tool is designed to simplify the traditional fragmented workflow of C64 development by combining editing, asset creation, and emulator testing into a single environment.
 
@@ -210,18 +204,10 @@ Integrated Development Environment
 **Host Platforms**
 
 * Windows
-* Linux
-* macOS
 
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**    
 READYCode is a modern lightweight development environment focused specifically on Commodore 64 BASIC development. It is designed to provide a streamlined editing and execution workflow that targets modern Commodore emulation environments. Unlike full-featured IDEs, READYCode focuses on simplicity and rapid iteration, making it particularly suitable for learning, experimentation, and BASIC-based software development on the Commodore 64 platform.
@@ -253,6 +239,9 @@ Lightweight Commodore 64 BASIC development environment
 ### <ins style="color: red">Relaunch64</a>
 
 **Official URL**
+http://www.popelganda.de/relaunch64.html
+
+**Source Code**
 https://github.com/sjPlot/Relaunch64
 
 **Category**
@@ -267,12 +256,6 @@ Integrated Development Environment
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**    
 Relaunch64 is a flexible development environment designed to act as a workflow hub rather than a monolithic IDE. It orchestrates external assemblers, compilers, and emulators, allowing developers to assemble custom toolchains while maintaining a unified interface. It is particularly valued in modern Commodore development for its ability to integrate disparate tools into a consistent workflow without enforcing a single development model.
@@ -309,8 +292,10 @@ Workflow orchestration for Commodore development
 ### <ins style="color: red">VS64</ins>
 
 **Official URL**
-https://github.com/rosc77/vs64
 https://marketplace.visualstudio.com/items?itemName=rosc.vs64
+
+**Source Code**
+https://github.com/rosc77/vs64
 
 **Category**
 Integrated Development Environment
@@ -324,12 +309,6 @@ Integrated Development Environment
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**    
 VS64 is a Visual Studio Code extension that transforms VS Code into a Commodore 64 development environment. It integrates build tools, emulator support, and project workflows directly into a modern editor interface. It is designed for developers who prefer contemporary IDEs but want full Commodore 64 development capabilities integrated into their workflow.
@@ -384,12 +363,6 @@ Integrated Development Environment
 * Plus/4
 * C16
 
-**License**
-Freeware
-
-**Status**
-Maintained
-
 **Overview**  
 WUDSN IDE is an Eclipse-based retro development environment supporting multiple 6502-family systems including the Commodore 8-bit family. It is designed for cross-platform development workflows and integrates assemblers, emulators, and debugging tools within the Eclipse ecosystem. Its strength lies in supporting multiple retro platforms under a unified IDE framework.
 
@@ -429,6 +402,9 @@ Multi-platform retro development IDE
 **Official URL**
 https://sourceforge.net/projects/tass64/
 
+**Souce Code**
+https://sourceforge.net/p/tass64/code/HEAD/tree/
+
 **Category**
 Assembler
 
@@ -446,12 +422,6 @@ Assembler
 * PET
 * Plus/4
 * C16
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 64tass is a high-performance cross-assembler for the 6502 family of processors widely used in Commodore development. It is designed for modern cross-development workflows and is particularly valued for its powerful macro system, flexible expression evaluation, and ability to generate highly structured assembly projects. It is often used in both demo and game development due to its balance between performance and readability.
@@ -489,6 +459,9 @@ High-performance 6502 cross-assembly
 **Official URL**
 https://sourceforge.net/projects/acme-crossass/
 
+**Source Code**
+https://sourceforge.net/p/acme-crossass/code-0/HEAD/tree/
+
 **Category**
 Assembler
 
@@ -506,12 +479,6 @@ Assembler
 * PET
 * Plus/4
 * C16
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 ACME is a mature and widely adopted cross-assembler for 6502-family systems. It has been used extensively in Commodore demoscene and game development for decades. ACME focuses on simplicity and reliability while still offering powerful macro and conditional assembly features, making it suitable for both small projects and large structured codebases.
@@ -562,12 +529,6 @@ Assembler
 * VIC-20
 * PET
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 Asm6502 is a modern lightweight assembler implementation for 6502-based systems. It is designed with simplicity and portability in mind, making it suitable for integration into modern build pipelines and custom tooling systems. While not as feature-heavy as larger assemblers, it provides a clean and straightforward assembly workflow.
 
@@ -616,12 +577,6 @@ Assembler
 * C64
 * C128
 * VIC-20
-
-**License**
-Freeware
-
-**Status**
-Active
 
 **Overview**  
 Kick Assembler is one of the most widely used modern assemblers for Commodore development. Built on Java, it combines traditional assembly syntax with a powerful macro and scripting language that enables highly structured and reusable code. It is especially popular in game and demo development due to its integration with asset pipelines and its ability to support complex build logic inside assembly projects.
@@ -677,12 +632,6 @@ Assembler
 * VIC-20
 * PET
 
-**License**
-Open Source
-
-**Status**
-Maintained
-
 **Overview**  
 Ophis is a minimalist cross-assembler for 6502-family processors designed with clarity and portability as its main goals. It prioritises simplicity of syntax and predictable behaviour, making it suitable for educational use, experimental development, and small-scale Commodore projects where full macro-heavy toolchains are unnecessary.
 
@@ -734,12 +683,6 @@ Assembler
 * Plus/4
 * C16
 
-**License**
-Commercial
-
-**Status**
-Active
-
 **Overview**  
 Retro Assembler is a modern multi-target assembly tool designed for retro computing development across multiple 8-bit platforms. It provides a contemporary development experience with modern diagnostics, structured project management, and support for multiple CPU architectures. It is particularly suited for developers targeting more than one retro platform simultaneously.
 
@@ -786,12 +729,6 @@ Assembler
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Maintained
 
 **Overview**  
 Turbo Macro Pro X is a modern cross-platform reimplementation of the classic Turbo Macro Pro assembler environment originally used directly on Commodore hardware. TMPx allows developers to use TMP-style workflows on modern systems, preserving compatibility with legacy development styles while enabling modern tooling integration.
@@ -843,12 +780,6 @@ Assembler
 * PET
 * Plus/4
 * C16
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 WLA DX is a multi-architecture assembler suite supporting several CPU families including the 6502 used in Commodore systems. It includes a powerful linker system, macro capabilities, and modular build support, making it suitable for large-scale projects and cross-platform retro development.
@@ -903,12 +834,6 @@ Assembler
 * Plus/4
 * C16
 
-**License**
-Open Source
-
-**Status**
-Maintained
-
 **Overview**  
 XA is a long-established and widely used cross-assembler for 6502-family processors. It is known for its stability and portability and remains a reliable choice for Commodore development. XA focuses on providing a straightforward assembly workflow without excessive abstraction, making it suitable for both legacy and modern development pipelines.
 
@@ -939,12 +864,15 @@ Stable 6502 cross-assembly
 
 # Cross-Compilers & High-Level Languages
 
-<a id="cc65-header"></a>
+<a id="cc65"></a>
 
 ### <ins style="color: red">cc65</a>
 
 **Official URL**
 https://cc65.github.io/
+
+**Source Code**
+https://github.com/cc65/cc65
 
 **Category**
 Cross-Compiler & C Toolchain
@@ -964,12 +892,6 @@ Cross-Compiler & C Toolchain
 * Plus/4
 * C16
 * CBM-II
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 cc65 is a complete cross-development suite for 6502-based systems. It provides a full C compiler, assembler, linker, and runtime library system designed for producing efficient machine code for Commodore and related 8-bit systems. It is one of the most mature and widely used toolchains for C development on the Commodore platform and is frequently used in production-level homebrew games and utilities.
@@ -1019,12 +941,6 @@ Cross-Compiler & Optimising C Compiler
 * C16
 * MEGA65
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 KickC is an optimising compiler that translates a subset of the C language into highly efficient 6502 assembly code. It is designed specifically for performance-critical Commodore 64 software such as games and demos. Unlike general-purpose C compilers, KickC is heavily tuned for predictable memory layouts and tight CPU constraints of 8-bit machines.
 
@@ -1072,12 +988,6 @@ Cross-Compiler & Structured High-Level Language
 * C16
 * CBM-II
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 Millfork is a high-level language designed specifically for 8-bit computers. It blends structured programming concepts with low-level control, allowing developers to write portable code that compiles into highly optimised 6502 machine code. It is particularly focused on game development and embedded-style programming where performance and determinism are essential.
 
@@ -1121,12 +1031,6 @@ Cross-Compiler & C Compiler
 * C64
 * C128
 * MEGA65
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 Oscar64 is a modern optimising C compiler specifically designed for Commodore 64-class hardware. It produces highly efficient 6502 assembly output and includes a modern toolchain pipeline with debugging output and intermediate representations. It is particularly suited for larger structured projects such as games, BBS software, and system utilities.
@@ -1172,12 +1076,6 @@ Cross-Compiler & High-Level Language
 * C128
 * PET
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 Prog8 is a modern compiled language designed for 6502-based systems. It provides a balance between structured high-level programming and low-level control, enabling developers to write portable and efficient code across multiple 8-bit platforms. It includes its own compiler pipeline, runtime library system, and configurable target backends.
 
@@ -1207,6 +1105,9 @@ Portable high-level 6502 development
 **Official URL**
 https://lemonspawn.com/turbo-rascal-syntax-error/
 
+**Source Code**
+https://github.com/leuat/TRSE/
+
 **Category**
 Cross-Compiler & Pascal-like Language IDE
 
@@ -1225,12 +1126,6 @@ Cross-Compiler & Pascal-like Language IDE
 * C16
 * PET
 * MEGA65
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 TRSE is a complete integrated development environment and compiler for a Pascal-inspired language targeting retro computers. It combines an editor, compiler, asset pipeline, and runtime tooling in a single environment. It is especially popular for demo and game development due to its built-in graphics tooling and tight integration with Commodore hardware constraints.
@@ -1281,14 +1176,8 @@ Cross-Compiler & BASIC Language
 * CBM-II
 * MEGA65
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
-ugBASIC is a modern cross-compiled BASIC dialect designed for multiple retro systems. It translates high-level BASIC-style code into efficient machine code for 8-bit systems. It is designed for accessibility while still allowing advanced users to access hardware-level features when required.
+ugBASIC is a modern cross-compiled BASIC dialect designed for multiple retro systems. It translates high-level BASIC-style code into efficient machine code for 8-bit systems. It is designed for accessibility while still allowing advanced users to access hardware-level features when required. There is also a Windows only IDE.
 
 **Development Features**
 
@@ -1316,6 +1205,9 @@ Portable BASIC development across retro systems
 **Official URL**
 https://xc-basic.net/
 
+**Source Code**
+https://github.com/neilsf/xc-basic3
+
 **Category**
 Cross-Compiler & Optimised BASIC Compiler
 
@@ -1334,12 +1226,6 @@ Cross-Compiler & Optimised BASIC Compiler
 * C16
 * PET
 * MEGA65
-
-**License**
-Commercial
-
-**Status**
-Active
 
 **Overview**  
 XC=BASIC 3 is a modern compiler that converts BASIC-style source code into optimised native machine code for Commodore systems. It is designed to retain BASIC’s simplicity while producing performance comparable to hand-written assembly in many cases. It is commonly used for games, utilities, and educational software.
@@ -1384,12 +1270,6 @@ Emulator
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Shareware
-
-**Status**
-Active
 
 **Overview**  
 CCS64 is a long-established Commodore 64 emulator known for its high compatibility and stability. It focuses on accurate execution timing and broad software support, making it suitable for both gameplay and software testing. It includes debugging features that allow developers to inspect memory and CPU state during execution.
@@ -1443,12 +1323,6 @@ Emulator Suite
 * VIC-20
 * PET
 * Plus/4
-
-**License**
-Commercial
-
-**Status**
-Active
 
 **Overview**  
 C64 Forever is a commercial Commodore emulation and preservation suite built around the VICE emulator core. It provides a curated and user-friendly environment for running Commodore software while also including tools for managing disk images, cartridges, and legacy software collections. It is designed for both preservation and casual usage.
@@ -1506,12 +1380,6 @@ Emulator
 * VIC-20
 * Plus/4
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 Denise is a modern Commodore emulator focused on low latency, visual accuracy, and developer-friendly features. It is widely used for both gameplay and demo development due to its advanced rendering pipeline and precise hardware emulation. It prioritises user experience while still maintaining strong cycle-accurate behaviour.
 
@@ -1565,12 +1433,6 @@ Emulator
 
 * C64
 
-**License**
-Open Source
-
-**Status**
-Maintained
-
 **Overview**  
 Frodo is one of the earliest portable Commodore 64 emulators and remains available as a lightweight alternative to modern full-featured emulators. It prioritises portability and simplicity over extreme accuracy, making it useful for educational purposes and lightweight software testing.
 
@@ -1603,7 +1465,7 @@ Lightweight Commodore 64 emulation
 ### <in style="color: red">Hoxs64</ins>
 
 **Official URL**
-https://sourceforge.net/projects/hoxs64/
+https://github.com/davidhorrocks/hoxs64
 
 **Category**
 Emulator
@@ -1615,12 +1477,6 @@ Emulator
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 Hoxs64 is a highly accurate Commodore 64 emulator designed with a strong focus on hardware-level correctness. It is frequently used by developers who require precise timing analysis of VIC-II and SID behaviour. It includes extensive debugging tools that allow deep inspection of system state.
@@ -1680,12 +1536,6 @@ Emulator
 * C16
 * CBM-II
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 VICE is the reference emulator for the Commodore 8-bit family and is widely regarded as the most important development and preservation tool in the ecosystem. It provides cycle-accurate emulation of multiple Commodore systems and is used extensively by developers, preservationists, and the demoscene. Its accuracy, configurability, and debugging tools make it the de facto standard for testing Commodore software on modern systems.
 
@@ -1725,7 +1575,7 @@ Reference-grade Commodore 8-bit emulation
 
 ---
 
-<a id="bitmap-map-characte-and-sprite-editors-header"></a>
+<a id="bitmap-map-characte-and-sprite-editors"></a>
 
 ## Bitmap, Map. Character & Sprite Editors
 
@@ -1734,7 +1584,10 @@ Reference-grade Commodore 8-bit emulation
 ### <ins style="color: red">Master of Sprites</ins>
 
 **Official URL**
-https://github.com/
+https://tstamborski.itch.io/master-of-sprites
+
+**Source Code**
+https://github.com/tstamborski/master-of-sprites
 
 **Category**
 Sprite Editor
@@ -1748,12 +1601,6 @@ Sprite Editor
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 Master of Sprites is a dedicated Commodore 64 sprite design tool focused on efficient creation, editing, and organisation of VIC-II sprite data. It is designed around the strict 24×21 pixel sprite constraints of the C64 hardware and supports multi-sprite sets used in animation and game development. It emphasises workflow efficiency for demoscene and game asset production.
@@ -1787,7 +1634,7 @@ Dedicated Commodore 64 sprite creation tool
 ### <ins style="color: red">OpenSprite</ins>
 
 **Official URL**
-https://github.com/
+https://github.com/jowin202/OpenSprite
 
 **Category**
 Sprite Editor
@@ -1801,12 +1648,6 @@ Sprite Editor
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 OpenSprite is a modern open-source sprite editor designed for retro systems including the Commodore 64. It provides a flexible editing environment for VIC-II sprite data, with support for multi-frame animation and export pipelines suited for assembly-based development workflows.
@@ -1841,6 +1682,9 @@ General-purpose retro sprite editing tool
 **Official URL**
 https://nurpax.github.io/petmate/
 
+**Source Code**
+https://github.com/nurpax/petmate
+
 **Category**
 PETSCII & Character Editor
 
@@ -1856,12 +1700,6 @@ PETSCII & Character Editor
 * C64
 * VIC-20
 * PET
-
-**License**
-Open Source
-
-**Status**
-Maintained
 
 **Overview**  
 Petmate is a PETSCII and character-mode graphics editor designed for Commodore systems. It allows developers to design text-mode screens, logos, and character-based graphics using the Commodore character set. It is widely used in demoscene production and retro software development where character graphics are preferred over bitmap rendering.
@@ -1908,14 +1746,8 @@ Character & Map Editor
 
 * C64
 
-**License**
-Commercial
-
-**Status**
-Active
-
 **Overview**  
-CharPad C64 Pro is a professional-grade character set and tile map editor for Commodore 64 development. It is designed to work within VIC-II constraints and is widely used for tile-based game development. It supports advanced map editing features including layered tilemaps and memory-efficient character reuse strategies.
+CharPad C64 Pro is a commercial, professional-grade character set and tile map editor for Commodore 64 development. It is designed to work within VIC-II constraints and is widely used for tile-based game development. It supports advanced map editing features including layered tilemaps and memory-efficient character reuse strategies.
 
 **Development Features**
 
@@ -1961,14 +1793,8 @@ Sprite Editor
 
 * C64
 
-**License**
-Commercial
-
-**Status**
-Active
-
 **Overview**  
-SpritePad C64 Pro is a dedicated Commodore 64 sprite editing tool focused on fast creation and management of VIC-II sprites. It provides tools for designing sprite sets, managing animation frames, and exporting directly into formats suitable for assembly and game development workflows.
+SpritePad C64 Pro is a dedicated comercial Commodore 64 sprite editing tool focused on fast creation and management of VIC-II sprites. It provides tools for designing sprite sets, managing animation frames, and exporting directly into formats suitable for assembly and game development workflows.
 
 **Development Features**
 
@@ -1998,7 +1824,7 @@ Professional Commodore 64 sprite creation
 ### <ins style="color: red">png2c64</ins>
 
 **Official URL**
-https://github.com/
+https://png2c64.app/
 
 **Category**
 Bitmap Conversion Tool
@@ -2012,12 +1838,6 @@ Bitmap Conversion Tool
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 png2c64 is a conversion utility that transforms modern PNG images into Commodore 64-compatible bitmap formats. It handles palette reduction, dithering, and conversion into VIC-II-compatible graphics layouts. It is primarily used as part of asset pipelines for games and demos where modern artwork must be adapted to retro hardware constraints.
@@ -2056,6 +1876,9 @@ Modern-to-Commodore bitmap conversion tool
 **Official URL**
 https://sourceforge.net/projects/goattracker2/
 
+**Source Code**
+https://sourceforge.net/p/goattracker2/code/HEAD/tree/
+
 **Category**
 SID Music Tracker
 
@@ -2068,12 +1891,6 @@ SID Music Tracker
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 GoatTracker 2 is one of the most widely used SID music trackers for Commodore 64 music production. It allows composers to create music that runs directly on the SID chip by providing a tracker-style interface designed around real hardware constraints. It is heavily used in the demoscene and homebrew game development for producing authentic C64 audio.
@@ -2109,7 +1926,10 @@ Native Commodore 64 SID music composition
 ### <ins style="color: red">SID Factory II</ins>
 
 **Official URL**
-https://csdb.dk/release/?id=200808
+https://blog.chordian.net/sf2/
+
+**Source Code**
+https://github.com/Chordian/sidfactory2
 
 **Category**
 SID Music Tracker
@@ -2121,12 +1941,6 @@ SID Music Tracker
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Freeware
-
-**Status**
-Active
 
 **Overview**  
 SID Factory II is a modern SID music tracker designed for composing music directly targeting the Commodore 64 SID chip. It provides a more modern workflow than traditional trackers while still maintaining strict compatibility with real hardware. It is widely used for game music and demo productions.
@@ -2178,12 +1992,6 @@ Multi-System Chiptune Tracker
 
 * C64
 
-**License**
-Commercial
-
-**Status**
-Active
-
 **Overview**  
 DefleMask is a cross-platform chiptune tracker supporting multiple retro sound chips, including the Commodore 64 SID chip. It allows composers to create music for multiple systems using a unified interface, making it popular for cross-platform retro game development and modern chiptune production.
 
@@ -2231,12 +2039,6 @@ SID Editor / Tracker
 
 * C64
 
-**License**
-Open Source
-
-**Status**
-Maintained
-
 **Overview**  
 CheeseCutter 2 is a modern SID tracker and editor focused on providing a lightweight but powerful environment for composing Commodore 64 music. It is designed to be efficient and accessible while still allowing deep control over SID chip behaviour.
 
@@ -2269,7 +2071,9 @@ Lightweight SID music composition
 ### <ins style="color: red">JITT64</ins>
 
 **Official URL**
-https://github.com/
+https://iceteam.itch.io/jitt64
+https://sourceforge.net/projects/jitt64/
+
 
 **Category**
 SID Tool / Audio Utility
@@ -2283,12 +2087,6 @@ SID Tool / Audio Utility
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 JITT64 is a modern SID-related utility tool used in Commodore 64 audio development pipelines. It is designed to assist with SID music generation workflows, analysis, or conversion tasks depending on project configuration. It is primarily used as a supporting tool within larger SID production pipelines rather than as a standalone tracker.
@@ -2342,12 +2140,6 @@ Disk & Hardware Interface Tool
 * VIC-20
 * C128
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 OpenCBM is a hardware interface and software suite for accessing Commodore floppy disk drives from modern systems. It allows developers to read, write, and manipulate real Commodore disks using compatible hardware interfaces. It is a foundational tool for preservation, disk imaging, and physical media workflows.
 
@@ -2398,12 +2190,6 @@ Disk Image Editor
 * VIC-20
 * C128
 
-**License**
-Freeware
-
-**Status**
-Maintained
-
 **Overview**  
 DirMaster is a powerful graphical tool for editing Commodore disk images. It allows developers to create, modify, and organise files within D64 and related disk formats. It is widely used in game development and demo production for preparing release disks.
 
@@ -2432,7 +2218,7 @@ Commodore disk image creation and editing
 
 ---
 
-<a id="frameworks-and-sdks-header"></a>
+<a id="frameworks-and-sdks"></a>
 
 ## Frameworks & SDK's
 
@@ -2441,6 +2227,7 @@ Commodore disk image creation and editing
 ### <ins style="color: red">c64lib</ins>
 
 **Official URL**
+https://github.com/c64lib/
 https://c64lib.github.io/
 
 **Category**
@@ -2455,12 +2242,6 @@ Assembly Framework / SDK
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 c64lib is a modular assembly language framework designed to simplify Commodore 64 development by providing reusable low-level routines and abstractions. It focuses on structured assembly programming and reusable components for graphics, sound, memory management, and hardware interaction.
@@ -2510,12 +2291,6 @@ Game Development Framework
 
 * C64
 
-**License**
-Open Source
-
-**Status**
-Active
-
 **Overview**  
 c64gameframework is a lightweight game development framework for Commodore 64 assembly projects. It provides reusable systems for input handling, game loops, graphics routines, and memory management, allowing developers to focus on gameplay logic rather than low-level hardware setup.
 
@@ -2546,12 +2321,123 @@ Commodore 64 assembly game development framework
 
 ## Asset Conversion Tools
 
+<a id="arcPaint64-header"></a>
+
+### <ins style="color: red">arcPaint64</ins>
+
+**Official URL**
+https://www.doussis.com/arcpaint64/
+
+**Category**
+Bitmap Editor
+
+**Host Platforms**
+
+* Windows
+* Linux
+* macOS
+
+**Verified Commodore Targets**
+
+* C64
+
+**Overview**__
+arcPaint64 is a modern cross-platform pixel art editor designed specifically for Commodore 64 graphics. It provides a native drawing environment that understands VIC-II bitmap constraints instead of relying solely on post-processing conversion. The editor supports C64 bitmap creation, editing of native PRG graphics files, and workflows aimed at artists producing games, demos and digital artwork. Recent releases have introduced improved PRG importing, faster drawing operations and general workflow improvements. ([The Oasis BBS][2])
+
+**Development Features**
+
+* Native Commodore 64 bitmap editing
+* Pixel-level editing
+* PRG import and export
+* VIC-II palette support
+* Drawing tools
+* Shape tools
+* Zoom and editing aids
+* Cross-platform desktop application
+
+**Supported Formats**
+
+* PRG
+* Native project files
+* Bitmap graphics
+
+**Integration**
+
+* VICE
+* Kick Assembler
+* Graphics production workflows
+
+**Primary Purpose**
+Native Commodore 64 bitmap artwork creation and editing.
+
+---
+
+<a id="albert-header"></a>
+
+### <ins style="color: red">ALBERT</ins>
+
+**Official URL**
+https://www.albertpixels.com/
+
+**Category**
+Bitmap Editor
+
+**Host Platforms**
+
+* Windows
+* Linux
+* macOS
+
+**Verified Commodore Targets**
+
+* C64
+
+**Overview**__
+ALBERT is an advanced cross-development pixel art editor for creating **extended-border Commodore 64 graphics**. It is specifically designed to produce images that extend beyond the normal 320×200 display area by combining bitmap graphics with sprites, enabling artists to create presentation-quality images without requiring custom programming. In addition to manual editing, ALBERT can import PNG images using several dithering algorithms, provides colour-curve adjustment tools, maintains an effectively unlimited undo/redo history, and includes Lua scripting for automating drawing operations. Projects can also be exported as timelapse sequences documenting the creation process.
+
+**Development Features**
+
+* Native extended-border C64 image editor
+* Bitmap drawing tools
+* Sprite-assisted border graphics
+* PNG image conversion
+* Multiple dithering algorithms
+
+  * Nearest colour
+  * Floyd–Steinberg
+  * Bayer ordered dithering
+* Weighted colour matching
+* Colour curve adjustments
+* Lua scripting interface
+* Unlimited undo/redo history
+* Project timelapse export
+* Cross-platform GUI
+
+**Supported Formats**
+
+* PNG
+* ALBERT project files
+* Extended C64 bitmap graphics
+* Timelapse PNG export
+
+**Integration**
+
+* VICE
+* Modern graphics workflows
+* Lua scripting
+* Asset production pipelines
+
+**Primary Purpose**
+Professional creation of extended-border Commodore 64 artwork using integrated bitmap, sprite and scripting workflows.
+
+---
+
 <a id="c64img-header"></a>
 
 ### <ins style="color:red">c64img<ins>
 
 **Official URL**
-https://github.com/
+https://github.com/elysium64/c64img
 
 **Category**
 Asset Conversion Tool
@@ -2565,12 +2451,6 @@ Asset Conversion Tool
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 c64img is an image conversion tool designed to transform modern bitmap graphics into Commodore 64-compatible formats. It supports palette reduction and conversion into VIC-II constrained formats suitable for use in games and demos.
@@ -2603,7 +2483,7 @@ Bitmap conversion for Commodore graphics pipelines
 ### <ins style="color: red">Petsciiator</ins>
 
 **Official URL**
-https://github.com/
+https://github.com/EgonOlsen71/petsciiator
 
 **Category**
 PETSCII Asset Tool
@@ -2618,12 +2498,6 @@ PETSCII Asset Tool
 
 * C64
 * VIC-20
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 Petsciiator is a PETSCII art and text conversion tool that allows modern text or images to be converted into Commodore PETSCII character graphics. It is commonly used for splash screens, intro screens, and retro-styled UI design.
@@ -2651,12 +2525,135 @@ PETSCII graphics generation tool
 
 ---
 
+<a id="png2prg-header"></a>
+
+### <ins style="color: red">png2prg</ins>
+
+**Official URL**
+https://github.com/staD020/png2prg
+
+**Category**
+Asset Conversion Tool
+
+**Host Platforms**
+
+* Windows
+* Linux
+* macOS
+
+**Verified Commodore Targets**
+
+* C64
+
+**License**
+Open Source (GPL-3.0)
+
+**Status**
+Active
+
+**Overview**__
+png2prg is one of the most capable modern image conversion tools available for Commodore 64 development. It converts modern PNG, GIF and JPEG images directly into C64-compatible graphics and executable PRG files. The converter automatically determines the optimal palette, colour assignments and graphics mode for the source image, significantly reducing the manual work normally required to prepare artwork for the VIC-II.
+
+Unlike many earlier conversion utilities, png2prg supports numerous C64 graphics modes including bitmap, character, PETSCII, Extended Colour Mode (ECM) and sprite graphics. It can also generate display programs, animation sequences and optionally include SID music playback. The project is implemented in Go, making it portable across all major desktop operating systems and suitable for automated asset pipelines. ([csdb.dk][1])
+
+**Development Features**
+
+* PNG, GIF and JPEG conversion
+* Automatic palette optimisation
+* Automatic graphics mode selection
+* Hires bitmap conversion
+* Multicolour bitmap conversion
+* Character mode conversion
+* PETSCII conversion
+* Extended Colour Mode (ECM)
+* Sprite conversion
+* Animation support
+* Optional display program generation
+* Optional SID playback
+* Command-line interface
+* Can be used as a Go library in custom tools
+
+**Supported Formats**
+
+* PNG
+* GIF
+* JPEG
+* PRG
+* PETSCII
+* Sprite data
+* Bitmap data
+* Character sets
+
+**Integration**
+
+* Kick Assembler
+* 64tass
+* ACME
+* VICE
+* Automated build systems
+* Go-based asset pipelines
+
+**Primary Purpose**
+Automated conversion of modern artwork into Commodore 64 graphics and executable display programs.
+
+---
+
+<a id="png2spd-header"></a>
+
+### <ins style="color: red">png2spd</ins>
+
+**Official URL**
+https://github.com/Esshahn/png2spd
+
+**Category**
+Asset Conversion Tool
+
+**Host Platforms**
+
+* Windows
+* Linux
+* macOS
+
+**Verified Commodore Targets**
+
+* C64
+
+**Overview (Detailed)**
+png2spd is a specialised graphics conversion utility that converts PNG images into SpritePad (.SPD) project files for Commodore 64 sprite development. Rather than generating finished binaries, it produces editable SpritePad projects, allowing artists to continue refining sprites using SpritePad Pro or compatible editors. This makes it particularly useful in modern graphics production pipelines where artwork originates in conventional image editors before being imported into C64-specific tools.
+
+**Development Features**
+
+* PNG import
+* SpritePad (.SPD) project generation
+* Automatic palette conversion
+* VIC-II sprite constraint handling
+* Command-line operation
+* Suitable for automated build pipelines
+
+**Supported Formats**
+
+* PNG
+* SPD (SpritePad)
+* VIC-II sprite graphics
+
+**Integration**
+
+* SpritePad C64 Pro
+* Kick Assembler
+* VICE
+* Modern graphics workflows
+
+**Primary Purpose**
+Convert modern bitmap artwork into editable SpritePad project files for Commodore 64 sprite development.
+
+---
+
 <a id="retropixels-header"></a>
 
 ### <ins style="color: red">RetroPixels+</ins>
 
 **Official URL**
-https://github.com/
+https://meatloaf.cc/tools/retropixels/
 
 **Category**
 Graphics Conversion Tool
@@ -2670,12 +2667,6 @@ Graphics Conversion Tool
 **Verified Commodore Targets**
 
 * C64
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview**  
 RetroPixels+ is an asset conversion tool designed to convert modern images into retro-computer-compatible formats, including Commodore 64 bitmap and character-based graphics. It provides fine control over dithering, palette selection, and output formats.
