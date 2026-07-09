@@ -116,3 +116,4 @@ c64gameframework is a lightweight game development framework for Commodore 64 as
 * VICE emulator
 
 **Primary Purpose**
+Commodore 64 assembly game development framework
