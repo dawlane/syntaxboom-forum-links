@@ -14,7 +14,6 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 * [READYCode](#readycode-header)
 * [Relaunch64](#relaunch64-header)
 * [VS64](#vs64-header)
-* [WUDSN IDE](#wudsn-ide-header)
 
 ---
 
@@ -258,56 +257,3 @@ VS64 is a Visual Studio Code extension that transforms VS Code into a Commodore 
 
 **Primary Purpose**
 VS Code-based Commodore 64 development environment
-
----
-
-<a id="wudsn-ide-header"></a>
-
-## WUDSN IDE
-
-**Official URL**
-https://www.wudsn.com/index.php/ide
-
-**Category**
-Integrated Development Environment
-
-**Host Platforms**
-
-* Windows
-* Linux
-* macOS
-
-**Verified Commodore Targets**
-
-* C64
-* C128
-* VIC-20
-* PET
-* Plus/4
-* C16
-
-**Overview (Detailed)**
-WUDSN IDE is an Eclipse-based retro development environment supporting multiple 6502-family systems including the Commodore 8-bit family. It is designed for cross-platform development workflows and integrates assemblers, emulators, and debugging tools within the Eclipse ecosystem. Its strength lies in supporting multiple retro platforms under a unified IDE framework.
-
-**Development Features**
-
-* Eclipse-based IDE integration
-* Multi-platform assembler support
-* Emulator launching
-* Project management
-* Source navigation tools
-* Syntax highlighting
-
-**Supported File Formats**
-
-* ASM
-* PRG
-* Binary outputs
-
-**Integration**
-
-* VICE emulator
-* External assemblers
-
-**Primary Purpose**
-Multi-platform retro development IDE
