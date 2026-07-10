@@ -162,3 +162,5 @@ The utility plays a key role in modern CPC software production by enabling fully
 
 **Primary Purpose**  
 Automate the creation and management of Amstrad CPC disk images within modern software development workflows.
+
+[Back to index](index.md)

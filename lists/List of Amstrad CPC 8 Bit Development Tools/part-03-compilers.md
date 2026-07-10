@@ -106,8 +106,6 @@ https://ugbasic.iwashere.eu/
 **Source Code**
 https://github.com/spotlessmind1975/ugbasic
 
-Cross-Compiler / High-Level Language
-
 **Host Platforms**
 
 * Windows
@@ -264,3 +262,5 @@ Its mature ecosystem, extensive documentation, and active community make it one 
 
 **Primary Purpose**  
 Provide a complete C-language cross-development toolchain for creating native Amstrad CPC software.
+
+[Back to index](index.md)

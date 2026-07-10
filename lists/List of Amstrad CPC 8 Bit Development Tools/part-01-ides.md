@@ -88,5 +88,7 @@ KC IDE is particularly useful for developers seeking an all-in-one environment t
 * Command-line asset processing tools
 * External conversion utilities
 
-**Primary Purpose**
+**Primary Purpose**  
 Provide a modern integrated development environment for creating, building, testing, debugging, and managing Amstrad CPC software projects from within Visual Studio Code.
+
+[Back to index](index.md)

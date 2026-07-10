@@ -240,3 +240,5 @@ The tool integrates well with contemporary development pipelines and is frequent
 
 **Primary Purpose**  
 Convert, optimise, and export graphical assets for use in Amstrad CPC games, demos, and software projects.
+
+[Back to index](index.md)

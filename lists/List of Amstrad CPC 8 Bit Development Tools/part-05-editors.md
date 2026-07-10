@@ -98,5 +98,6 @@ Because it supports a wide range of image formats and operating systems, GrafX2 
 * Graphics conversion utilities
 
 **Primary Purpose**  
-
 Create bitmap graphics, sprites, character sets, tiles, maps, and visual assets for Amstrad CPC software development.
+
+[Back to index](index.md)

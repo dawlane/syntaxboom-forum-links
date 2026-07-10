@@ -367,3 +367,5 @@ For many CPC programmers, WinAPE serves as the primary testing and debugging pla
 
 **Primary Purpose**  
 Provide highly capable Amstrad CPC emulation and professional-grade debugging tools for software development.
+
+[Back to index](index.md)

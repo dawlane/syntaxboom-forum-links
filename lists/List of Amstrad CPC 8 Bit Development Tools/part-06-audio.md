@@ -95,3 +95,5 @@ The tool has become a de facto standard within the modern CPC scene and is frequ
 
 **Primary Purpose**  
 Create AY-3-8910 and AY-3-8912 music and sound effects for integration into Amstrad CPC games, demos, and other software projects.
+
+[Back to index](index.md)

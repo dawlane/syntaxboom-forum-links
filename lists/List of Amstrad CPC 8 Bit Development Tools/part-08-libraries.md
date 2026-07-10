@@ -257,3 +257,5 @@ For larger projects, CPCTools can significantly reduce manual effort associated 
 
 **Primary Purpose**  
 Provide supporting development infrastructure, utilities, and workflow automation tools for modern Amstrad CPC software development.
+
+[Back to index](index.md)
