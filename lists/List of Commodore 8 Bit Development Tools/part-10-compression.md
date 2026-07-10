@@ -22,9 +22,6 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Official URL**
 [https://bitbucket.org/magli143/exomizer/](https://bitbucket.org/magli143/exomizer/)
 
-**Category**
-Compression & Packing Utility
-
 **Host Platforms**
 
 * Windows
@@ -40,7 +37,7 @@ Compression & Packing Utility
 * Plus/4
 * C16
 
-**Overview**
+**Overview**  
 Exomizer is the de facto standard executable and data compressor used in modern Commodore development. It can compress complete PRG files into self-extracting executables (SFX) or compress individual assets for in-memory decompression. It provides excellent compression ratios while remaining relatively fast to decompress on 6502 hardware. It is the most widely used compressor in contemporary C64 game and demo production.
 
 **Development Features**
@@ -67,7 +64,7 @@ Exomizer is the de facto standard executable and data compressor used in modern 
 * Relaunch64
 * VICE
 
-**Primary Purpose**
+**Primary Purpose**  
 Compress Commodore executables and assets.
 
 ---
@@ -78,9 +75,6 @@ Compress Commodore executables and assets.
 
 **Official URL**
 [https://github.com/mist64/pucrunch](https://github.com/mist64/pucrunch)
-
-**Category**
-Compression & Packing Utility
 
 **Host Platforms**
 
@@ -96,7 +90,7 @@ Compression & Packing Utility
 * Plus/4
 * C16
 
-**Overview**
+**Overview**  
 Pucrunch is one of the classic cross-platform Commodore compressors and remains actively used in modern development. It uses a hybrid LZ77/RLE algorithm and supports both executable compression and data compression. Although older than Exomizer, it is still popular because of its fast decompression routines and straightforward command-line interface.
 
 **Development Features**
@@ -120,7 +114,7 @@ Pucrunch is one of the classic cross-platform Commodore compressors and remains 
 * VS64
 * VICE
 
-**Primary Purpose**
+**Primary Purpose**  
 Compress Commodore programs and data.
 
 ---
@@ -132,9 +126,6 @@ Compress Commodore programs and data.
 **Official URL**
 [https://github.com/tonysavon/TSCrunch](https://github.com/tonysavon/TSCrunch)
 
-**Category**
-Compression & Packing Utility
-
 **Host Platforms**
 
 * Windows
@@ -145,7 +136,7 @@ Compression & Packing Utility
 
 * C64
 
-**Overview**
+**Overview**  
 TSCrunch is a modern byte-aligned LZ/RLE compressor developed by Antonio Savona (Piggy 18/RGCD). It was designed for high-speed in-memory decompression in games while also supporting creation of self-extracting Commodore 64 executables. It is increasingly used in new commercial-quality C64 software where decompression speed is as important as compression ratio.
 
 **Development Features**
@@ -167,5 +158,7 @@ TSCrunch is a modern byte-aligned LZ/RLE compressor developed by Antonio Savona 
 * VICE
 * Build automation
 
-**Primary Purpose**
+**Primary Purpose**  
 Fast compression for games and asset loading.
+
+[Back to index](index.md)

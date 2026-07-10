@@ -21,9 +21,6 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Official URL**
 https://spiro.trikaliotis.net/opencbm
 
-**Category**
-Disk & Hardware Interface Tool
-
 **Host Platforms**
 
 * Windows
@@ -36,7 +33,7 @@ Disk & Hardware Interface Tool
 * VIC-20
 * C128
 
-**Overview (Detailed)**
+**Overview**  
 OpenCBM is a hardware interface and software suite for accessing Commodore floppy disk drives from modern systems. It allows developers to read, write, and manipulate real Commodore disks using compatible hardware interfaces. It is a foundational tool for preservation, disk imaging, and physical media workflows.
 
 **Development Features**
@@ -61,7 +58,7 @@ OpenCBM is a hardware interface and software suite for accessing Commodore flopp
 * Disk image toolchains
 * Preservation pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Physical Commodore disk access and manipulation
 
 ---
@@ -73,9 +70,6 @@ Physical Commodore disk access and manipulation
 **Official URL**
 https://style64.org/dirmaster
 
-**Category**
-Disk Image Editor
-
 **Host Platforms**
 
 * Windows
@@ -86,7 +80,7 @@ Disk Image Editor
 * VIC-20
 * C128
 
-**Overview (Detailed)**
+**Overview**  
 DirMaster is a powerful graphical tool for editing Commodore disk images. It allows developers to create, modify, and organise files within D64 and related disk formats. It is widely used in game development and demo production for preparing release disks.
 
 **Development Features**
@@ -109,5 +103,7 @@ DirMaster is a powerful graphical tool for editing Commodore disk images. It all
 * Assembly workflows
 * Game packaging pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Commodore disk image creation and editing
+
+[Back to index](index.md)

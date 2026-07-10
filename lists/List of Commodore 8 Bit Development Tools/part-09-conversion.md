@@ -24,9 +24,6 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Official URL**
 https://github.com/elysium64/c64img
 
-**Category**
-Asset Conversion Tool
-
 **Host Platforms**
 
 * Windows
@@ -37,7 +34,7 @@ Asset Conversion Tool
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 c64img is an image conversion tool designed to transform modern bitmap graphics into Commodore 64-compatible formats. It supports palette reduction and conversion into VIC-II constrained formats suitable for use in games and demos.
 
 **Development Features**
@@ -58,7 +55,7 @@ c64img is an image conversion tool designed to transform modern bitmap graphics 
 * Assembly pipelines
 * Game asset workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 Bitmap conversion for Commodore graphics pipelines
 
 ---
@@ -86,7 +83,7 @@ Bitmap Conversion Tool
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 png2c64 is a conversion utility that transforms modern PNG images into Commodore 64-compatible bitmap formats. It handles palette reduction, dithering, and conversion into VIC-II-compatible graphics layouts. It is primarily used as part of asset pipelines for games and demos where modern artwork must be adapted to retro hardware constraints.
 
 **Development Features**
@@ -107,7 +104,7 @@ png2c64 is a conversion utility that transforms modern PNG images into Commodore
 * Assembly pipelines
 * Game asset workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 Modern-to-Commodore bitmap conversion tool
 
 
@@ -133,7 +130,7 @@ Asset Conversion Tool
 
 * C64
 
-**Overview**__
+**Overview**  
 png2prg is one of the most capable modern image conversion tools available for Commodore 64 development. It converts modern PNG, GIF and JPEG images directly into C64-compatible graphics and executable PRG files. The converter automatically determines the optimal palette, colour assignments and graphics mode for the source image, significantly reducing the manual work normally required to prepare artwork for the VIC-II.
 
 Unlike many earlier conversion utilities, png2prg supports numerous C64 graphics modes including bitmap, character, PETSCII, Extended Colour Mode (ECM) and sprite graphics. It can also generate display programs, animation sequences and optionally include SID music playback. The project is implemented in Go, making it portable across all major desktop operating systems and suitable for automated asset pipelines.
@@ -175,7 +172,7 @@ Unlike many earlier conversion utilities, png2prg supports numerous C64 graphics
 * Automated build systems
 * Go-based asset pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Automated conversion of modern artwork into Commodore 64 graphics and executable display programs.
 
 ---
@@ -200,7 +197,7 @@ Asset Conversion Tool
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 png2spd is a specialised graphics conversion utility that converts PNG images into SpritePad (.SPD) project files for Commodore 64 sprite development. Rather than generating finished binaries, it produces editable SpritePad projects, allowing artists to continue refining sprites using SpritePad Pro or compatible editors. This makes it particularly useful in modern graphics production pipelines where artwork originates in conventional image editors before being imported into C64-specific tools.
 
 **Development Features**
@@ -225,7 +222,7 @@ png2spd is a specialised graphics conversion utility that converts PNG images in
 * VICE
 * Modern graphics workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 Convert modern bitmap artwork into editable SpritePad project files for Commodore 64 sprite development.
 
 ---
@@ -250,7 +247,7 @@ Graphics Conversion Tool
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 RetroPixels+ is an asset conversion tool designed to convert modern images into retro-computer-compatible formats, including Commodore 64 bitmap and character-based graphics. It provides fine control over dithering, palette selection, and output formats.
 
 **Development Features**
@@ -273,5 +270,7 @@ RetroPixels+ is an asset conversion tool designed to convert modern images into 
 * Assembly toolchains
 * Emulator testing workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 General retro graphics conversion pipeline tool
+
+[Back to index](index.md)

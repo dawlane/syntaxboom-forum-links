@@ -28,9 +28,6 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Official URL**
 https://sourceforge.net/projects/tass64/
 
-**Category**
-Assembler
-
 **Host Platforms**
 
 * Windows
@@ -70,7 +67,7 @@ Assembler
 * VICE
 * External build systems
 
-**Primary Purpose**
+**Primary Purpose**    
 High-performance 6502 cross-assembly
 
 ---
@@ -84,9 +81,6 @@ https://sourceforge.net/projects/acme-crossass/
 
 **Source Code**
 https://sourceforge.net/p/acme-crossass/code-0/HEAD/tree/
-
-**Category**
-Assembler
 
 **Host Platforms**
 
@@ -124,7 +118,7 @@ ACME is a mature and widely adopted cross-assembler for 6502-family systems. It 
 * VICE emulator
 * IDEs such as VS64 and WUDSN
 
-**Primary Purpose**
+**Primary Purpose**  
 General-purpose 6502 assembly development
 
 ---
@@ -174,7 +168,7 @@ Asm6502 is a modern lightweight assembler implementation for 6502-based systems.
 * IDE wrappers
 * Emulator pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Lightweight 6502 assembly compilation
 
 ---
@@ -185,9 +179,6 @@ Lightweight 6502 assembly compilation
 
 **Official URL**
 https://theweb.dk/KickAssembler/
-
-**Category**
-Assembler
 
 **Host Platforms**
 
@@ -227,7 +218,7 @@ Kick Assembler is one of the most widely used modern assemblers for Commodore de
 * VS64
 * External Java toolchains
 
-**Primary Purpose**
+**Primary Purpose**  
 Feature-rich 6502 assembly development
 
 ---
@@ -279,7 +270,7 @@ Ophis is a minimalist cross-assembler for 6502-family processors designed with c
 * VICE emulator
 * Simple build pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Simple and portable 6502 assembly
 
 ---
@@ -331,7 +322,7 @@ Retro Assembler is a modern multi-target assembly tool designed for retro comput
 * External IDEs
 * Emulator pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Multi-platform 6502 assembly development
 
 ---
@@ -342,9 +333,6 @@ Multi-platform 6502 assembly development
 
 **Official URL**
 https://turbo.style64.org/
-
-**Category**
-Assembler
 
 **Host Platforms**
 
@@ -377,7 +365,7 @@ Turbo Macro Pro X is a modern cross-platform reimplementation of the classic Tur
 * VICE emulator
 * Retro workflow pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Legacy-compatible Commodore assembly workflow
 
 ---
@@ -430,7 +418,7 @@ WLA DX is a multi-architecture assembler suite supporting several CPU families i
 * VICE emulator
 * Multi-tool build systems
 
-**Primary Purpose**
+**Primary Purpose**  
 Multi-architecture assembly development
 
 ---
@@ -481,5 +469,7 @@ XA is a long-established and widely used cross-assembler for 6502-family process
 * VICE emulator
 * IDE integrations
 
-**Primary Purpose**
+**Primary Purpose**  
 Stable 6502 cross-assembly
+
+[Back to index](index.md)

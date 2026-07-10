@@ -21,9 +21,6 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Official URL**
 https://github.com/c64lib/
 
-**Category**
-Assembly Framework / SDK
-
 **Host Platforms**
 
 * Windows
@@ -34,13 +31,7 @@ Assembly Framework / SDK
 
 * C64
 
-**License**
-Open Source
-
-**Status**
-Active
-
-**Overview (Detailed)**
+**Overview**  
 c64lib is a modular assembly language framework designed to simplify Commodore 64 development by providing reusable low-level routines and abstractions. It focuses on structured assembly programming and reusable components for graphics, sound, memory management, and hardware interaction.
 
 **Development Features**
@@ -63,7 +54,7 @@ c64lib is a modular assembly language framework designed to simplify Commodore 6
 * ACME
 * VICE emulator
 
-**Primary Purpose**
+**Primary Purpose**  
 Structured assembly development framework for C64
 
 ---
@@ -75,9 +66,6 @@ Structured assembly development framework for C64
 **Official URL**
 https://github.com/cadaver/c64gameframework
 
-**Category**
-Game Development Framework
-
 **Host Platforms**
 
 * Windows
@@ -88,13 +76,7 @@ Game Development Framework
 
 * C64
 
-**License**
-Open Source
-
-**Status**
-Active
-
-**Overview (Detailed)**
+**Overview**  
 c64gameframework is a lightweight game development framework for Commodore 64 assembly projects. It provides reusable systems for input handling, game loops, graphics routines, and memory management, allowing developers to focus on gameplay logic rather than low-level hardware setup.
 
 **Development Features**
@@ -115,5 +97,7 @@ c64gameframework is a lightweight game development framework for Commodore 64 as
 * Kick Assembler
 * VICE emulator
 
-**Primary Purpose**
+**Primary Purpose**  
 Commodore 64 assembly game development framework
+
+[Back to index](index.md)

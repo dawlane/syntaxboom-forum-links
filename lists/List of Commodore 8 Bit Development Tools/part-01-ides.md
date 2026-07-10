@@ -27,9 +27,6 @@ https://www.georg-rottensteiner.de/en/c64.html
 **Soure Code**
 https://github.com/GeorgRottensteiner/C64Studio
 
-**Category**
-Integrated Development Environment
-
 **Host Platforms**
 
 * Windows
@@ -38,7 +35,7 @@ Integrated Development Environment
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 C64 Studio is a comprehensive Windows-based development environment specifically designed for Commodore 64 software creation. It provides a tightly integrated workflow that combines source code editing, project organisation, asset creation tools, and build automation into a single application. Unlike lightweight editors that rely on external tooling, C64 Studio is designed as a full IDE where most aspects of C64 development can be handled without leaving the environment. It is widely used in modern C64 game and demo production pipelines due to its integrated support for graphics and assembly workflows.
 
 **Development Features**
@@ -64,7 +61,7 @@ C64 Studio is a comprehensive Windows-based development environment specifically
 * External 6502 assemblers
 * VICE emulator
 
-**Primary Purpose**
+**Primary Purpose**  
 All-in-one Commodore 64 development environment
 
 ---
@@ -76,9 +73,6 @@ All-in-one Commodore 64 development environment
 **Official URL**
 http://www.ajordison.co.uk/
 
-**Category**
-Integrated Development Environment
-
 **Host Platforms**
 
 * Windows
@@ -87,7 +81,7 @@ Integrated Development Environment
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 CBM .prg Studio is a Windows-based integrated development environment focused on Commodore 8-bit development, particularly the Commodore 64. It provides a unified workspace where developers can write assembly or BASIC code, create graphical assets, and manage projects targeting multiple Commodore systems. The tool is designed to simplify the traditional fragmented workflow of C64 development by combining editing, asset creation, and emulator testing into a single environment.
 
 **Development Features**
@@ -111,7 +105,7 @@ CBM .prg Studio is a Windows-based integrated development environment focused on
 * VICE emulator
 * External assemblers
 
-**Primary Purpose**
+**Primary Purpose**  
 Commodore multi-language development IDE
 
 ---
@@ -123,9 +117,6 @@ Commodore multi-language development IDE
 **Official URL**
 https://github.com/jbramwell/readycode
 
-**Category**
-Integrated Development Environment
-
 **Host Platforms**
 
 * Windows
@@ -136,7 +127,7 @@ Integrated Development Environment
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 READYCode is a modern lightweight development environment focused specifically on Commodore 64 BASIC development. It is designed to provide a streamlined editing and execution workflow that targets modern Commodore emulation environments. Unlike full-featured IDEs, READYCode focuses on simplicity and rapid iteration, making it particularly suitable for learning, experimentation, and BASIC-based software development on the Commodore 64 platform.
 
 **Development Features**
@@ -156,7 +147,7 @@ READYCode is a modern lightweight development environment focused specifically o
 
 * VICE emulator
 
-**Primary Purpose**
+**Primary Purpose**  
 Lightweight Commodore 64 BASIC development environment
 
 ---
@@ -168,9 +159,6 @@ Lightweight Commodore 64 BASIC development environment
 **Official URL**
 https://github.com/sjPlot/Relaunch64
 
-**Category**
-Integrated Development Environment
-
 **Host Platforms**
 
 * Windows
@@ -181,7 +169,7 @@ Integrated Development Environment
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 Relaunch64 is a flexible development environment designed to act as a workflow hub rather than a monolithic IDE. It orchestrates external assemblers, compilers, and emulators, allowing developers to assemble custom toolchains while maintaining a unified interface. It is particularly valued in modern Commodore development for its ability to integrate disparate tools into a consistent workflow without enforcing a single development model.
 
 **Development Features**
@@ -206,7 +194,7 @@ Relaunch64 is a flexible development environment designed to act as a workflow h
 * 64tass
 * Other external toolchains
 
-**Primary Purpose**
+**Primary Purpose**  
 Workflow orchestration for Commodore development
 
 ---
@@ -219,9 +207,6 @@ Workflow orchestration for Commodore development
 https://github.com/rosc77/vs64
 https://marketplace.visualstudio.com/items?itemName=rosc.vs64
 
-**Category**
-Integrated Development Environment
-
 **Host Platforms**
 
 * Windows
@@ -232,7 +217,7 @@ Integrated Development Environment
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 VS64 is a Visual Studio Code extension that transforms VS Code into a Commodore 64 development environment. It integrates build tools, emulator support, and project workflows directly into a modern editor interface. It is designed for developers who prefer contemporary IDEs but want full Commodore 64 development capabilities integrated into their workflow.
 
 **Development Features**
@@ -255,5 +240,7 @@ VS64 is a Visual Studio Code extension that transforms VS Code into a Commodore 
 * External assemblers
 * VICE emulator
 
-**Primary Purpose**
+**Primary Purpose**  
 VS Code-based Commodore 64 development environment
+
+[Back to index](index.md)

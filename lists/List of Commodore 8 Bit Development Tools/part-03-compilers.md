@@ -30,9 +30,6 @@ https://cc65.github.io/
 **Source Code**
 https://github.com/cc65/cc65
 
-**Category**
-Cross-Compiler & C Toolchain
-
 **Host Platforms**
 
 * Windows
@@ -49,7 +46,7 @@ Cross-Compiler & C Toolchain
 * C16
 * CBM-II
 
-**Overview (Detailed)**
+**Overview**  
 cc65 is a complete cross-development suite for 6502-based systems. It provides a full C compiler, assembler, linker, and runtime library system designed for producing efficient machine code for Commodore and related 8-bit systems. It is one of the most mature and widely used toolchains for C development on the Commodore platform and is frequently used in production-level homebrew games and utilities.
 
 **Development Features**
@@ -67,7 +64,7 @@ cc65 is a complete cross-development suite for 6502-based systems. It provides a
 * Custom build systems
 * IDE wrappers (VS64, WUDSN)
 
-**Primary Purpose**
+**Primary Purpose**  
 C-based Commodore 8-bit development
 
 ---
@@ -78,9 +75,6 @@ C-based Commodore 8-bit development
 
 **Official URL**
 https://gitlab.com/camelot/kickc
-
-**Category**
-Cross-Compiler & Optimising C Compiler
 
 **Host Platforms**
 
@@ -97,7 +91,7 @@ Cross-Compiler & Optimising C Compiler
 * C16
 * MEGA65
 
-**Overview (Detailed)**
+**Overview**  
 KickC is an optimising compiler that translates a subset of the C language into highly efficient 6502 assembly code. It is designed specifically for performance-critical Commodore 64 software such as games and demos. Unlike general-purpose C compilers, KickC is heavily tuned for predictable memory layouts and tight CPU constraints of 8-bit machines.
 
 **Development Features**
@@ -114,7 +108,7 @@ KickC is an optimising compiler that translates a subset of the C language into 
 * VICE emulator
 * Relaunch64
 
-**Primary Purpose**
+**Primary Purpose**  
 High-performance C development for Commodore systems
 
 ---
@@ -125,9 +119,6 @@ High-performance C development for Commodore systems
 
 **Official URL**
 https://github.com/KarolS/millfork
-
-**Category**
-Cross-Compiler & Structured High-Level Language
 
 **Host Platforms**
 
@@ -144,7 +135,7 @@ Cross-Compiler & Structured High-Level Language
 * C16
 * CBM-II
 
-**Overview (Detailed)**
+**Overview**  
 Millfork is a high-level language designed specifically for 8-bit computers. It blends structured programming concepts with low-level control, allowing developers to write portable code that compiles into highly optimised 6502 machine code. It is particularly focused on game development and embedded-style programming where performance and determinism are essential.
 
 **Development Features**
@@ -161,7 +152,7 @@ Millfork is a high-level language designed specifically for 8-bit computers. It 
 * VICE emulator
 * External build pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Structured high-level programming for 8-bit systems
 
 ---
@@ -172,9 +163,6 @@ Structured high-level programming for 8-bit systems
 
 **Official URL**
 https://github.com/drmortalwombat/oscar64
-
-**Category**
-Cross-Compiler & C Compiler
 
 **Host Platforms**
 
@@ -188,7 +176,7 @@ Cross-Compiler & C Compiler
 * C128
 * MEGA65
 
-**Overview (Detailed)**
+**Overview**  
 Oscar64 is a modern optimising C compiler specifically designed for Commodore 64-class hardware. It produces highly efficient 6502 assembly output and includes a modern toolchain pipeline with debugging output and intermediate representations. It is particularly suited for larger structured projects such as games, BBS software, and system utilities.
 
 **Development Features**
@@ -205,7 +193,7 @@ Oscar64 is a modern optimising C compiler specifically designed for Commodore 64
 * External assemblers
 * Modern IDE workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 High-performance C development for Commodore systems
 
 ---
@@ -216,9 +204,6 @@ High-performance C development for Commodore systems
 
 **Official URL**
 https://github.com/irmen/prog8
-
-**Category**
-Cross-Compiler & High-Level Language
 
 **Host Platforms**
 
@@ -232,7 +217,7 @@ Cross-Compiler & High-Level Language
 * C128
 * PET
 
-**Overview (Detailed)**
+**Overview**  
 Prog8 is a modern compiled language designed for 6502-based systems. It provides a balance between structured high-level programming and low-level control, enabling developers to write portable and efficient code across multiple 8-bit platforms. It includes its own compiler pipeline, runtime library system, and configurable target backends.
 
 **Development Features**
@@ -249,7 +234,7 @@ Prog8 is a modern compiled language designed for 6502-based systems. It provides
 * Assembly toolchains
 * Custom build systems
 
-**Primary Purpose**
+**Primary Purpose**  
 Portable high-level 6502 development
 
 ---
@@ -263,9 +248,6 @@ https://lemonspawn.com/turbo-rascal-syntax-error/
 
 **Source Code**
 https://github.com/leuat/TRSE
-
-**Category**
-Cross-Compiler & Pascal-like Language IDE
 
 **Host Platforms**
 
@@ -283,7 +265,7 @@ Cross-Compiler & Pascal-like Language IDE
 * PET
 * MEGA65
 
-**Overview (Detailed)**
+**Overview**  
 TRSE is a complete integrated development environment and compiler for a Pascal-inspired language targeting retro computers. It combines an editor, compiler, asset pipeline, and runtime tooling in a single environment. It is especially popular for demo and game development due to its built-in graphics tooling and tight integration with Commodore hardware constraints.
 
 **Development Features**
@@ -300,7 +282,7 @@ TRSE is a complete integrated development environment and compiler for a Pascal-
 * Internal toolchain system
 * External asset pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 All-in-one structured retro development environment
 
 ---
@@ -311,9 +293,6 @@ All-in-one structured retro development environment
 
 **Official URL**
 https://ugbasic.iwashere.eu/
-
-**Category**
-Cross-Compiler & BASIC Language
 
 **Host Platforms**
 
@@ -332,7 +311,7 @@ Cross-Compiler & BASIC Language
 * CBM-II
 * MEGA65
 
-**Overview (Detailed)**
+**Overview**  
 ugBASIC is a modern cross-compiled BASIC dialect designed for multiple retro systems. It translates high-level BASIC-style code into efficient machine code for 8-bit systems. It is designed for accessibility while still allowing advanced users to access hardware-level features when required.
 
 **Development Features**
@@ -349,7 +328,7 @@ ugBASIC is a modern cross-compiled BASIC dialect designed for multiple retro sys
 * External build pipelines
 * Asset conversion tools
 
-**Primary Purpose**
+**Primary Purpose**  
 Portable BASIC development across retro systems
 
 ---
@@ -363,9 +342,6 @@ https://xc-basic.net/
 
 **Source Code**
 https://github.com/neilsf/xc-basic3
-
-**Category**
-Cross-Compiler & Optimised BASIC Compiler
 
 **Host Platforms**
 
@@ -383,7 +359,7 @@ Cross-Compiler & Optimised BASIC Compiler
 * PET
 * MEGA65
 
-**Overview (Detailed)**
+**Overview**  
 XC=BASIC 3 is a modern compiler that converts BASIC-style source code into optimised native machine code for Commodore systems. It is designed to retain BASIC’s simplicity while producing performance comparable to hand-written assembly in many cases. It is commonly used for games, utilities, and educational software.
 
 **Development Features**
@@ -400,5 +376,7 @@ XC=BASIC 3 is a modern compiler that converts BASIC-style source code into optim
 * Asset pipelines
 * External IDEs
 
-**Primary Purpose**
+**Primary Purpose**  
 High-performance BASIC development for Commodore systems
+
+[Back to index](index.md)

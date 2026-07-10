@@ -28,9 +28,6 @@ https://sourceforge.net/projects/goattracker2/
 **Source Code**
 https://sourceforge.net/p/goattracker2/code/HEAD/tree/
 
-**Category**
-SID Music Tracker
-
 **Host Platforms**
 
 * Windows
@@ -41,7 +38,7 @@ SID Music Tracker
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 GoatTracker 2 is one of the most widely used SID music trackers for Commodore 64 music production. It allows composers to create music that runs directly on the SID chip by providing a tracker-style interface designed around real hardware constraints. It is heavily used in the demoscene and homebrew game development for producing authentic C64 audio.
 
 **Development Features**
@@ -65,7 +62,7 @@ GoatTracker 2 is one of the most widely used SID music trackers for Commodore 64
 * C64 game engines
 * Assembly pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Native Commodore 64 SID music composition
 
 ---
@@ -80,9 +77,6 @@ https://blog.chordian.net/sf2/
 **Source Code**
 https://github.com/Chordian/sidfactory2
 
-**Category**
-SID Music Tracker
-
 **Host Platforms**
 
 * Windows
@@ -91,7 +85,7 @@ SID Music Tracker
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 SID Factory II is a modern SID music tracker designed for composing music directly targeting the Commodore 64 SID chip. It provides a more modern workflow than traditional trackers while still maintaining strict compatibility with real hardware. It is widely used for game music and demo productions.
 
 **Development Features**
@@ -115,7 +109,7 @@ SID Factory II is a modern SID music tracker designed for composing music direct
 * Game engines
 * Assembly pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Modern SID music composition tool
 
 ---
@@ -128,9 +122,6 @@ Modern SID music composition tool
 https://www.deflemask.com/
 https://store.steampowered.com/app/2422830/DefleMask/
 
-**Category**
-Multi-System Chiptune Tracker
-
 **Host Platforms**
 
 * Windows
@@ -141,7 +132,7 @@ Multi-System Chiptune Tracker
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 DefleMask is a cross-platform chiptune tracker supporting multiple retro sound chips, including the Commodore 64 SID chip. It allows composers to create music for multiple systems using a unified interface, making it popular for cross-platform retro game development and modern chiptune production.
 
 **Development Features**
@@ -163,7 +154,7 @@ DefleMask is a cross-platform chiptune tracker supporting multiple retro sound c
 * VICE emulator
 * Game development pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Multi-platform chiptune composition including C64 SID
 
 ---
@@ -175,9 +166,6 @@ Multi-platform chiptune composition including C64 SID
 **Official URL**
 https://github.com/theyamo/CheeseCutter
 
-**Category**
-SID Editor / Tracker
-
 **Host Platforms**
 
 * Windows
@@ -188,7 +176,7 @@ SID Editor / Tracker
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 CheeseCutter 2 is a modern SID tracker and editor focused on providing a lightweight but powerful environment for composing Commodore 64 music. It is designed to be efficient and accessible while still allowing deep control over SID chip behaviour.
 
 **Development Features**
@@ -210,7 +198,7 @@ CheeseCutter 2 is a modern SID tracker and editor focused on providing a lightwe
 * VICE emulator
 * Game audio pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Lightweight SID music composition
 
 ---
@@ -224,9 +212,6 @@ Lightweight SID music composition
 https://iceteam.itch.io/jitt64
 https://sourceforge.net/projects/jitt64/
 
-**Category**
-SID Tool / Audio Utility
-
 **Host Platforms**
 
 * Windows
@@ -237,7 +222,7 @@ SID Tool / Audio Utility
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 JITT64 is a modern SID-related utility tool used in Commodore 64 audio development pipelines. It is designed to assist with SID music generation workflows, analysis, or conversion tasks depending on project configuration. It is primarily used as a supporting tool within larger SID production pipelines rather than as a standalone tracker.
 
 **Development Features**
@@ -258,5 +243,7 @@ JITT64 is a modern SID-related utility tool used in Commodore 64 audio developme
 * VICE emulator
 * Assembly pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 SID audio processing and tooling utility
+
+[Back to index](index.md)

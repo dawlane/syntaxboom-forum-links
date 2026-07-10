@@ -27,9 +27,6 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Official URL**
 https://www.doussis.com/arcpaint64/
 
-**Category**
-Bitmap Editor
-
 **Host Platforms**
 
 * Windows
@@ -40,7 +37,7 @@ Bitmap Editor
 
 * C64
 
-**Overview**__
+**Overview**  
 arcPaint64 is a modern cross-platform pixel art editor designed specifically for Commodore 64 graphics. It provides a native drawing environment that understands VIC-II bitmap constraints instead of relying solely on post-processing conversion. The editor supports C64 bitmap creation, editing of native PRG graphics files, and workflows aimed at artists producing games, demos and digital artwork. Recent releases have introduced improved PRG importing, faster drawing operations and general workflow improvements.
 
 **Development Features**
@@ -66,7 +63,7 @@ arcPaint64 is a modern cross-platform pixel art editor designed specifically for
 * Kick Assembler
 * Graphics production workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 Native Commodore 64 bitmap artwork creation and editing.
 
 ---
@@ -78,9 +75,6 @@ Native Commodore 64 bitmap artwork creation and editing.
 **Official URL**
 https://www.albertpixels.com/
 
-**Category**
-Bitmap Editor
-
 **Host Platforms**
 
 * Windows
@@ -91,7 +85,7 @@ Bitmap Editor
 
 * C64
 
-**Overview**__
+**Overview**  
 ALBERT is an advanced cross-development pixel art editor for creating **extended-border Commodore 64 graphics**. It is specifically designed to produce images that extend beyond the normal 320×200 display area by combining bitmap graphics with sprites, enabling artists to create presentation-quality images without requiring custom programming. In addition to manual editing, ALBERT can import PNG images using several dithering algorithms, provides colour-curve adjustment tools, maintains an effectively unlimited undo/redo history, and includes Lua scripting for automating drawing operations. Projects can also be exported as timelapse sequences documenting the creation process.
 
 **Development Features**
@@ -126,7 +120,7 @@ ALBERT is an advanced cross-development pixel art editor for creating **extended
 * Lua scripting
 * Asset production pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Professional creation of extended-border Commodore 64 artwork using integrated bitmap, sprite and scripting workflows.
 
 ---
@@ -139,10 +133,7 @@ Professional creation of extended-border Commodore 64 artwork using integrated b
 https://tstamborski.itch.io/master-of-sprites 
 
 **Source Code**
-https://github.com/tstamborski/master-of-sprites 
-
-**Category**
-Sprite Editor
+https://github.com/tstamborski/master-of-sprites
 
 **Host Platforms**
 
@@ -154,7 +145,7 @@ Sprite Editor
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 Master of Sprites is a dedicated Commodore 64 sprite design tool focused on efficient creation, editing, and organisation of VIC-II sprite data. It is designed around the strict 24×21 pixel sprite constraints of the C64 hardware and supports multi-sprite sets used in animation and game development. It emphasises workflow efficiency for demoscene and game asset production.
 
 **Development Features**
@@ -176,7 +167,7 @@ Master of Sprites is a dedicated Commodore 64 sprite design tool focused on effi
 * VICE emulator
 * External toolchains
 
-**Primary Purpose**
+**Primary Purpose**  
 Dedicated Commodore 64 sprite creation tool
 
 ---
@@ -187,10 +178,6 @@ Dedicated Commodore 64 sprite creation tool
 
 **Official URL**
 https://github.com/jowin202/OpenSprite
-
-**Category**
-Sprite Editor
-
 **Host Platforms**
 
 * Windows
@@ -201,7 +188,7 @@ Sprite Editor
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 OpenSprite is a modern open-source sprite editor designed for retro systems including the Commodore 64. It provides a flexible editing environment for VIC-II sprite data, with support for multi-frame animation and export pipelines suited for assembly-based development workflows.
 
 **Development Features**
@@ -222,7 +209,7 @@ OpenSprite is a modern open-source sprite editor designed for retro systems incl
 * VICE emulator
 * Assembly toolchains
 
-**Primary Purpose**
+**Primary Purpose**  
 General-purpose retro sprite editing tool
 
 ---
@@ -237,9 +224,6 @@ https://nurpax.github.io/petmate/
 **Source Code**
 https://github.com/nurpax/petmate
 
-**Category**
-PETSCII & Character Editor
-
 **Host Platforms**
 
 * Windows
@@ -253,7 +237,7 @@ PETSCII & Character Editor
 * VIC-20
 * PET
 
-**Overview (Detailed)**
+**Overview**  
 Petmate is a PETSCII and character-mode graphics editor designed for Commodore systems. It allows developers to design text-mode screens, logos, and character-based graphics using the Commodore character set. It is widely used in demoscene production and retro software development where character graphics are preferred over bitmap rendering.
 
 **Development Features**
@@ -275,7 +259,7 @@ Petmate is a PETSCII and character-mode graphics editor designed for Commodore s
 * VICE emulator
 * Assembly toolchains
 
-**Primary Purpose**
+**Primary Purpose**  
 Character-mode and PETSCII asset creation
 
 ---
@@ -287,9 +271,6 @@ Character-mode and PETSCII asset creation
 **Official URL**
 https://github.com/EgonOlsen71/petsciiator
 
-**Category**
-PETSCII Asset Tool
-
 **Host Platforms**
 
 * Windows
@@ -300,12 +281,6 @@ PETSCII Asset Tool
 
 * C64
 * VIC-20
-
-**License**
-Open Source
-
-**Status**
-Active
 
 **Overview (Detailed)**
 Petsciiator is a PETSCII art and text conversion tool that allows modern text or images to be converted into Commodore PETSCII character graphics. It is commonly used for splash screens, intro screens, and retro-styled UI design.
@@ -328,7 +303,7 @@ Petsciiator is a PETSCII art and text conversion tool that allows modern text or
 * VICE emulator
 * Assembly toolchains
 
-**Primary Purpose**
+**Primary Purpose**  
 PETSCII graphics generation tool
 
 ---
@@ -340,9 +315,6 @@ PETSCII graphics generation tool
 **Official URL**
 https://subchristsoftware.itch.io/charpad-c64-pro
 
-**Category**
-Character & Map Editor
-
 **Host Platforms**
 
 * Windows
@@ -351,7 +323,7 @@ Character & Map Editor
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 CharPad C64 Pro is a professional-grade character set and tile map editor for Commodore 64 development. It is designed to work within VIC-II constraints and is widely used for tile-based game development. It supports advanced map editing features including layered tilemaps and memory-efficient character reuse strategies.
 
 **Development Features**
@@ -375,7 +347,7 @@ CharPad C64 Pro is a professional-grade character set and tile map editor for Co
 * VICE emulator
 * Game development pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Tile-based map and character asset creation
 
 ---
@@ -387,9 +359,6 @@ Tile-based map and character asset creation
 **Official URL**
 https://subchristsoftware.itch.io/spritepad-c64-pro
 
-**Category**
-Sprite Editor
-
 **Host Platforms**
 
 * Windows
@@ -398,7 +367,7 @@ Sprite Editor
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 SpritePad C64 Pro is a dedicated Commodore 64 sprite editing tool focused on fast creation and management of VIC-II sprites. It provides tools for designing sprite sets, managing animation frames, and exporting directly into formats suitable for assembly and game development workflows.
 
 **Development Features**
@@ -419,5 +388,7 @@ SpritePad C64 Pro is a dedicated Commodore 64 sprite editing tool focused on fas
 * Kick Assembler
 * VICE emulator
 
-**Primary Purpose**
+**Primary Purpose**  
 Professional Commodore 64 sprite creation
+
+[Back to index](index.md)

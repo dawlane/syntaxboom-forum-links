@@ -28,9 +28,6 @@ https://vice-emu.sourceforge.io/
 **Source Code**
 https://sourceforge.net/p/vice-emu/code/HEAD/tree/
 
-**Category**
-Emulator
-
 **Host Platforms**
 
 * Windows
@@ -47,7 +44,7 @@ Emulator
 * C16
 * CBM-II
 
-**Overview (Detailed)**
+**Overview**  
 VICE is the reference emulator for the Commodore 8-bit family and is widely regarded as the most important development and preservation tool in the ecosystem. It provides cycle-accurate emulation of multiple Commodore systems and is used extensively by developers, preservationists, and the demoscene. Its accuracy, configurability, and debugging tools make it the de facto standard for testing Commodore software on modern systems.
 
 **Development Features**
@@ -81,7 +78,7 @@ VICE is the reference emulator for the Commodore 8-bit family and is widely rega
 * VS64
 * WUDSN IDE
 
-**Primary Purpose**
+**Primary Purpose**  
 Reference-grade Commodore 8-bit emulation
 
 ---
@@ -93,9 +90,6 @@ Reference-grade Commodore 8-bit emulation
 **Official URL**
 https://www.ccs64.com/
 
-**Category**
-Emulator
-
 **Host Platforms**
 
 * Windows
@@ -104,7 +98,7 @@ Emulator
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 CCS64 is a long-established Commodore 64 emulator known for its high compatibility and stability. It focuses on accurate execution timing and broad software support, making it suitable for both gameplay and software testing. It includes debugging features that allow developers to inspect memory and CPU state during execution.
 
 **Development Features**
@@ -130,7 +124,7 @@ CCS64 is a long-established Commodore 64 emulator known for its high compatibili
 * External assemblers
 * IDE workflows (Relaunch64, VS64)
 
-**Primary Purpose**
+**Primary Purpose**  
 High-compatibility Commodore 64 emulation
 
 ---
@@ -145,9 +139,6 @@ https://sourceforge.net/projects/deniseemu/
 **Source Code**
 https://bitbucket.org/piciji/denise/src/master/
 
-**Category**
-Emulator
-
 **Host Platforms**
 
 * Windows
@@ -161,7 +152,7 @@ Emulator
 * VIC-20
 * Plus/4
 
-**Overview (Detailed)**
+**Overview**  
 Denise is a modern Commodore emulator focused on low latency, visual accuracy, and developer-friendly features. It is widely used for both gameplay and demo development due to its advanced rendering pipeline and precise hardware emulation. It prioritises user experience while still maintaining strong cycle-accurate behaviour.
 
 **Development Features**
@@ -189,7 +180,7 @@ Denise is a modern Commodore emulator focused on low latency, visual accuracy, a
 * Assembly pipelines
 * Debug tooling workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 Low-latency accurate Commodore emulation
 
 ---
@@ -217,7 +208,7 @@ Emulator
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 Frodo is one of the earliest portable Commodore 64 emulators and remains available as a lightweight alternative to modern full-featured emulators. It prioritises portability and simplicity over extreme accuracy, making it useful for educational purposes and lightweight software testing.
 
 **Development Features**
@@ -239,7 +230,7 @@ Frodo is one of the earliest portable Commodore 64 emulators and remains availab
 * External toolchains
 * Basic IDE workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 Lightweight Commodore 64 emulation
 
 ---
@@ -262,7 +253,7 @@ Emulator
 
 * C64
 
-**Overview (Detailed)**
+**Overview**  
 Hoxs64 is a highly accurate Commodore 64 emulator designed with a strong focus on hardware-level correctness. It is frequently used by developers who require precise timing analysis of VIC-II and SID behaviour. It includes extensive debugging tools that allow deep inspection of system state.
 
 **Development Features**
@@ -289,7 +280,7 @@ Hoxs64 is a highly accurate Commodore 64 emulator designed with a strong focus o
 * IDE environments
 * Debug pipelines
 
-**Primary Purpose**
+**Primary Purpose**  
 Hardware-accurate Commodore 64 emulation
 
 ---
@@ -299,10 +290,7 @@ Hardware-accurate Commodore 64 emulation
 ## C64 Forever
 
 **Official URL**
-https://www.c64forever.com/
-
-**Category**
-Emulator Suite
+https://www.c64forever.com/ Suite
 
 **Host Platforms**
 
@@ -316,7 +304,7 @@ Emulator Suite
 * PET
 * Plus/4
 
-**Overview (Detailed)**
+**Overview**  
 C64 Forever is a commercial Commodore emulation and preservation suite built around the VICE emulator core. It provides a curated and user-friendly environment for running Commodore software while also including tools for managing disk images, cartridges, and legacy software collections. It is designed for both preservation and casual usage.
 
 **Development Features**
@@ -344,5 +332,7 @@ C64 Forever is a commercial Commodore emulation and preservation suite built aro
 * External development tools
 * VICE-compatible workflows
 
-**Primary Purpose**
+**Primary Purpose**  
 Curated Commodore emulation and preservation environment
+
+[Back to index](index.md)
