@@ -1,4 +1,4 @@
-# SYMTAXBOOM SUPPLEMENT FILES
+# SYNTAXBOOM SUPPLEMENT FILES
 
 These file are supplements to the [syntaxboom](https://www.syntaxboom.net) forum. And have been created and uploaded the github of ease of maintenance. And as such, are written as though they are part of the forum.
 
