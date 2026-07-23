@@ -14,6 +14,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 * [READYCode](#readycode-header)
 * [Relaunch64](#relaunch64-header)
 * [VS64](#vs64-header)
+* [WUDSN IDE](#wudsn-header)
 
 ---
 
@@ -24,7 +25,7 @@ Then PM an administrator so they can be removed, or updated with the correct inf
 **Official URL**
 https://www.georg-rottensteiner.de/en/c64.html
 
-**Soure Code**
+**Source Code**
 https://github.com/GeorgRottensteiner/C64Studio
 
 **Host Platforms**
@@ -242,5 +243,64 @@ VS64 is a Visual Studio Code extension that transforms VS Code into a Commodore 
 
 **Primary Purpose**  
 VS Code-based Commodore 64 development environment
+
+---
+
+<a id="wudsn-header"></a>
+
+## WUDSN IDE
+
+**Official URL**
+https://www.wudsn.com/index.php/ide
+
+**Source Code**
+https://github.com/wudsn/wudsn-ide
+
+**Host Platforms**
+
+* Windows
+* Linux
+* macOS
+
+**Verified Commodore Targets**
+
+* C64
+* C128
+* VIC-20
+* PET
+* Plus/4
+* C16
+
+**Overview**  
+WUDSN IDE is an Eclipse-based integrated development environment supporting multiple retro computing platforms, including the Commodore 8-bit family. It focuses on assembler development and integrates external assemblers, emulators, and debugging tools into a single configurable environment. Its multi-platform support makes it well suited for developers working across several classic computer systems.
+
+**Development Features**
+
+* Eclipse integration
+* Project management
+* Syntax highlighting
+* External assembler support
+* Emulator launching
+* Build automation
+* Cross-platform configuration
+
+**Supported File Formats**
+
+* ASM
+* PRG
+* D64
+* CRT
+
+**Integration**
+
+* Eclipse
+* VICE
+* ACME
+* Kick Assembler
+* 64tass
+* XA
+
+**Primary Purpose**
+Cross-platform IDE for Commodore and other 8-bit assembly development.
 
 [Back to index](index.md)
