@@ -7,11 +7,11 @@ If they don't appear to be what is advertised, or look suspicious.
 Then PM an administrator so they can be removed, or updated with the correct information.  
 **So use these links and any associated software from these sites at your own risk!**  
 
-Table of contents
+## Table of contents
 
 * [KC IDE](#kc-ide-header)
 
-# KC IDE
+## KC IDE
 
 **Official URL**
 https://marketplace.visualstudio.com/items?itemName=floooh.vscode-kcide
